@@ -1,0 +1,2434 @@
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | -1.45   |
+| Overall score:             | 0.021   |
++----------------------------+---------+
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 285   |
+| Recognized ratio:   | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 270   |
+| Recognized ratio: | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | -1.45   |
+| Overall score:             | 0.021   |
++----------------------------+---------+
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 285   |
+| Recognized ratio:   | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 270   |
+| Recognized ratio: | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | 0.030   |
+| Overall score:             | 0.021   |
++----------------------------+---------+
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 285   |
+| Recognized ratio:   | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 270   |
+| Recognized ratio: | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | 0.030   |
+| Overall score:             | 0.021   |
++----------------------------+---------+
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 285   |
+| Recognized ratio:   | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 270   |
+| Recognized ratio: | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | -1.45   |
+| Overall score:             | 0.021   |
++----------------------------+---------+
++---------------------+-------+
+| lfw_aligned metrics | Value |
++---------------------+-------+
+| Total faces:        | 1050  |
+| Detected:           | 742   |
+| Detected ratio:     | 0.706 |
+| Recognized:         | 285   |
+| Recognized ratio:   | 0.384 |
+| Total confidence:   | 28.14 |
++---------------------+-------+
++-------------------+-------+
+| gauss_100 metrics | Value |
++-------------------+-------+
+| Total faces:      | 1050  |
+| Detected:         | 709   |
+| Detected ratio:   | 0.675 |
+| Recognized:       | 270   |
+| Recognized ratio: | 0.380 |
+| Total confidence: | 28.91 |
++-------------------+-------+
+
+
+COMPARING.
+
+Disguised:
++--------------------------+--------------+----------------+----------------+
+| FILE                     | NEW TARGET   | NEW CONFIDENCE | OLD CONFIDENCE |
++--------------------------+--------------+----------------+----------------+
+| Ana_Palacio_0008.png     | Alvaro_Uribe | 0.017          | 0.017          |
+| Andre_Agassi_0025.png    | Alvaro_Uribe | 0.114          | 0.059          |
+| Adrien_Brody_0011.png    | Alvaro_Uribe | 0.033          | 0.033          |
+| Anna_Kournikova_0011.png | Ann_Veneman  | 0.025          | 0.025          |
+| Antonio_Palocci_0002.png | Abdullah_Gul | 0.021          | 0.018          |
++--------------------------+--------------+----------------+----------------+
+
+Exposed:
++--------------------------+----------------+----------------------+----------------+
+| FILE                     | NEW CONFIDENCE | OLD TARGET           | OLD CONFIDENCE |
++--------------------------+----------------+----------------------+----------------+
+| Anna_Kournikova_0009.png | 0.024          | Angelina_Jolie       | 0.025          |
+| Al_Gore_0002.png         | 0.017          | Alejandro_Toledo     | 0.019          |
+| Ali_Naimi_0006.png       | 0.019          | Atal_Bihari_Vajpayee | 0.018          |
+| Andy_Roddick_0011.png    | 0.044          | Amelie_Mauresmo      | 0.044          |
++--------------------------+----------------+----------------------+----------------+
+
+Lost:
+Alejandro_Toledo_0017.png
+Alan_Dreher_0001.png
+Alice_Fisher_0001.png
+Alvaro_Uribe_0008.png
+Allyson_Felix_0005.png
+Alexander_Downer_0001.png
+Ashley_Olsen_0001.png
+Abdullah_Gul_0014.png
+Ana_Palacio_0005.png
+Andre_Agassi_0036.png
+Alexander_Rumyantsev_0001.png
+Alfredo_Pena_0001.png
+Arnoldo_Aleman_0001.png
+Abdullah_0001.png
+Andy_North_0001.png
+Askar_Akayev_0001.png
+Amelie_Mauresmo_0015.png
+Ariel_Sharon_0029.png
+Alexandra_Stevenson_0002.png
+Arnold_Schwarzenegger_0032.png
+Andrei_Nikolishin_0001.png
+Alejandro_Toledo_0026.png
+Alex_Ferguson_0001.png
+Anthony_Carter_0001.png
+Anna_Kournikova_0008.png
+Aicha_El_Ouafi_0001.png
+Anatoliy_Kinakh_0001.png
+Amelia_Vega_0006.png
+Alice_Fisher_0002.png
+Arnold_Schwarzenegger_0020.png
+Ahmed_Qureia_0001.png
+Anna_Nicole_Smith_0001.png
+Atal_Bihari_Vajpayee_0001.png
+Al_Sharpton_0004.png
+Al_Gore_0005.png
+Alfonso_Portillo_0001.png
+Arminio_Fraga_0006.png
+Amer_al-Saadi_0002.png
+Abdullah_0003.png
+Abdoulaye_Wade_0004.png
+Annie_Chaplin_0001.png
+Arnold_Scott_0001.png
+Anthony_LaPaglia_0002.png
+Alejandro_Toledo_0020.png
+Adam_Sandler_0004.png
+Amelie_Mauresmo_0004.png
+Arnoldo_Aleman_0002.png
+Ariel_Sharon_0067.png
+Alma_Powell_0001.png
+Abbas_Kiarostami_0001.png
+Anne_ONeil_0001.png
+Andy_Roddick_0010.png
+Alex_Holmes_0001.png
+Astou_Ndiaye-Diatta_0001.png
+
+Found:
+Alexander_Downer_0003.png
+Aleksander_Kwasniewski_0001.png
+Akhmed_Zakayev_0002.png
+Aaron_Guiel_0001.png
+Ariel_Sharon_0056.png
+Amelia_Vega_0003.png
+Aleksander_Kwasniewski_0002.png
+Ariel_Sharon_0070.png
+Aldo_Paredes_0001.png
+Alejandro_Lopez_0001.png
+Ariel_Sharon_0043.png
+Ann_Landers_0001.png
+Al_Gore_0001.png
+Ai_Sugiyama_0001.png
+Aaron_Peirsol_0001.png
+Augusto_Pinochet_0001.png
+Adrien_Brody_0001.png
+Arturo_Gatti_0003.png
+Andy_Wisecarver_0001.png
+Anders_Ebbeson_0001.png
+Arsinee_Khanjian_0002.png
+
+Both correct:
++--------------------------------+----------------+----------------+----------+
+| FILE                           | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------+----------------+----------------+----------+
+| Anna_Kournikova_0012.png       | 0.024          | 0.024          | False    |
+| Ariel_Sharon_0022.png          | 0.352          | 0.130          | True     |
+| Ariel_Sharon_0044.png          | 0.140          | 0.085          | True     |
+| Ariel_Sharon_0058.png          | 0.210          | 0.215          | False    |
+| Ariel_Sharon_0040.png          | 0.210          | 0.036          | True     |
+| Atal_Bihari_Vajpayee_0015.png  | 0.056          | 0.053          | True     |
+| Ariel_Sharon_0012.png          | 0.380          | 0.211          | True     |
+| Alvaro_Uribe_0001.png          | 0.137          | 0.155          | False    |
+| Andy_Roddick_0006.png          | 0.036          | 0.036          | True     |
+| Alvaro_Uribe_0033.png          | 0.149          | 0.151          | False    |
+| Ariel_Sharon_0017.png          | 0.130          | 0.101          | True     |
+| Alvaro_Uribe_0011.png          | 0.142          | 0.168          | False    |
+| Atal_Bihari_Vajpayee_0008.png  | 0.103          | 0.102          | True     |
+| Andre_Agassi_0018.png          | 0.143          | 0.137          | True     |
+| Ann_Veneman_0002.png           | 0.027          | 0.027          | False    |
+| Andre_Agassi_0029.png          | 0.133          | 0.147          | False    |
+| Ari_Fleischer_0010.png         | 0.034          | 0.033          | True     |
+| Abdullah_Gul_0019.png          | 0.053          | 0.063          | False    |
+| Amelie_Mauresmo_0006.png       | 0.067          | 0.072          | False    |
+| Andre_Agassi_0001.png          | 0.041          | 0.042          | False    |
+| Alejandro_Toledo_0006.png      | 0.156          | 0.139          | True     |
+| Angelina_Jolie_0006.png        | 0.055          | 0.063          | False    |
+| Antonio_Palocci_0001.png       | 0.018          | 0.018          | True     |
+| Andre_Agassi_0008.png          | 0.054          | 0.079          | False    |
+| Andre_Agassi_0026.png          | 0.163          | 0.152          | True     |
+| Antonio_Palocci_0004.png       | 0.017          | 0.017          | True     |
+| Ari_Fleischer_0008.png         | 0.032          | 0.021          | True     |
+| Ariel_Sharon_0050.png          | 0.227          | 0.241          | False    |
+| Atal_Bihari_Vajpayee_0012.png  | 0.097          | 0.097          | False    |
+| Andre_Agassi_0034.png          | 0.159          | 0.129          | True     |
+| Amelie_Mauresmo_0009.png       | 0.065          | 0.067          | False    |
+| Andy_Roddick_0007.png          | 0.043          | 0.043          | False    |
+| Arnold_Schwarzenegger_0014.png | 0.272          | 0.282          | False    |
+| Ann_Veneman_0009.png           | 0.026          | 0.026          | False    |
+| Amelie_Mauresmo_0019.png       | 0.065          | 0.069          | False    |
+| Andre_Agassi_0021.png          | 0.099          | 0.139          | False    |
+| Alvaro_Uribe_0016.png          | 0.161          | 0.169          | False    |
+| Andy_Roddick_0004.png          | 0.040          | 0.042          | False    |
+| Ariel_Sharon_0011.png          | 0.293          | 0.277          | True     |
+| Arnold_Schwarzenegger_0042.png | 0.253          | 0.229          | True     |
+| Ariel_Sharon_0065.png          | 0.429          | 0.357          | True     |
+| Andre_Agassi_0006.png          | 0.172          | 0.174          | False    |
+| Arnold_Schwarzenegger_0006.png | 0.162          | 0.137          | True     |
+| Ariel_Sharon_0021.png          | 0.419          | 0.377          | True     |
+| Ariel_Sharon_0009.png          | 0.293          | 0.250          | True     |
+| Alejandro_Toledo_0022.png      | 0.139          | 0.151          | False    |
+| Alvaro_Uribe_0018.png          | 0.091          | 0.124          | False    |
+| Alvaro_Uribe_0029.png          | 0.131          | 0.109          | True     |
+| Arnold_Schwarzenegger_0025.png | 0.046          | 0.037          | True     |
+| Abdullah_Gul_0004.png          | 0.061          | 0.055          | True     |
+| Ariel_Sharon_0048.png          | 0.311          | 0.286          | True     |
+| Alvaro_Uribe_0023.png          | 0.189          | 0.201          | False    |
+| Ariel_Sharon_0073.png          | 0.298          | 0.305          | False    |
+| Alvaro_Uribe_0021.png          | 0.076          | 0.088          | False    |
+| Alejandro_Toledo_0036.png      | 0.154          | 0.114          | True     |
+| Alvaro_Uribe_0017.png          | 0.127          | 0.147          | False    |
+| Ariel_Sharon_0042.png          | 0.388          | 0.262          | True     |
+| Alejandro_Toledo_0030.png      | 0.138          | 0.109          | True     |
+| Ariel_Sharon_0019.png          | 0.333          | 0.289          | True     |
+| Alvaro_Uribe_0015.png          | 0.072          | 0.088          | False    |
+| Andre_Agassi_0035.png          | 0.159          | 0.154          | True     |
+| Amelie_Mauresmo_0012.png       | 0.070          | 0.080          | False    |
+| Alvaro_Uribe_0004.png          | 0.035          | 0.075          | False    |
+| Abdullah_Gul_0006.png          | 0.052          | 0.050          | True     |
+| Alejandro_Toledo_0012.png      | 0.149          | 0.155          | False    |
+| Alvaro_Uribe_0006.png          | 0.149          | 0.130          | True     |
+| Ariel_Sharon_0063.png          | 0.270          | 0.285          | False    |
+| Amelie_Mauresmo_0017.png       | 0.065          | 0.064          | True     |
+| Abdullah_Gul_0013.png          | 0.062          | 0.071          | False    |
+| Alejandro_Toledo_0016.png      | 0.139          | 0.106          | True     |
+| Alvaro_Uribe_0028.png          | 0.128          | 0.153          | False    |
+| Alejandro_Toledo_0014.png      | 0.118          | 0.118          | False    |
+| Andre_Agassi_0030.png          | 0.138          | 0.116          | True     |
+| Anna_Kournikova_0002.png       | 0.025          | 0.026          | False    |
+| Alvaro_Uribe_0034.png          | 0.126          | 0.131          | False    |
+| Alejandro_Toledo_0024.png      | 0.105          | 0.150          | False    |
+| Ariel_Sharon_0074.png          | 0.347          | 0.354          | False    |
+| Abdullah_Gul_0018.png          | 0.047          | 0.055          | False    |
+| Arnold_Schwarzenegger_0034.png | 0.202          | 0.260          | False    |
+| Ariel_Sharon_0061.png          | 0.228          | 0.214          | True     |
+| Ariel_Sharon_0053.png          | 0.248          | 0.148          | True     |
+| Al_Sharpton_0003.png           | 0.014          | 0.014          | False    |
+| Ari_Fleischer_0011.png         | 0.033          | 0.029          | True     |
+| Adrien_Brody_0012.png          | 0.033          | 0.032          | True     |
+| Arnold_Schwarzenegger_0027.png | 0.195          | 0.169          | True     |
+| Ariel_Sharon_0015.png          | 0.472          | 0.411          | True     |
+| Angelina_Jolie_0001.png        | 0.066          | 0.059          | True     |
+| Ariel_Sharon_0035.png          | 0.420          | 0.438          | False    |
+| Abdullah_Gul_0012.png          | 0.062          | 0.063          | False    |
+| Ariel_Sharon_0051.png          | 0.341          | 0.271          | True     |
+| Ariel_Sharon_0003.png          | 0.335          | 0.349          | False    |
+| Arnold_Schwarzenegger_0015.png | 0.167          | 0.163          | True     |
+| Alejandro_Toledo_0034.png      | 0.103          | 0.112          | False    |
+| Amelie_Mauresmo_0016.png       | 0.068          | 0.070          | False    |
+| Arnold_Schwarzenegger_0035.png | 0.246          | 0.257          | False    |
+| Ariel_Sharon_0054.png          | 0.364          | 0.244          | True     |
+| Andre_Agassi_0022.png          | 0.182          | 0.175          | True     |
+| Ariel_Sharon_0013.png          | 0.392          | 0.402          | False    |
+| Alvaro_Uribe_0025.png          | 0.141          | 0.139          | True     |
+| Ari_Fleischer_0001.png         | 0.035          | 0.035          | False    |
+| Alejandro_Toledo_0009.png      | 0.184          | 0.180          | True     |
+| Atal_Bihari_Vajpayee_0018.png  | 0.090          | 0.090          | False    |
+| Atal_Bihari_Vajpayee_0004.png  | 0.060          | 0.063          | False    |
+| Ariel_Sharon_0055.png          | 0.432          | 0.340          | True     |
+| Andre_Agassi_0012.png          | 0.069          | 0.095          | False    |
+| Andre_Agassi_0017.png          | 0.154          | 0.152          | True     |
+| Angelina_Jolie_0003.png        | 0.061          | 0.061          | False    |
+| Ariel_Sharon_0060.png          | 0.359          | 0.200          | True     |
+| Ariel_Sharon_0041.png          | 0.332          | 0.370          | False    |
+| Andy_Roddick_0014.png          | 0.037          | 0.035          | True     |
+| Alvaro_Uribe_0030.png          | 0.148          | 0.147          | True     |
+| Alejandro_Toledo_0039.png      | 0.170          | 0.172          | False    |
+| Andre_Agassi_0016.png          | 0.068          | 0.070          | False    |
+| Ariel_Sharon_0027.png          | 0.374          | 0.347          | True     |
+| Ari_Fleischer_0007.png         | 0.035          | 0.030          | True     |
+| Amelie_Mauresmo_0007.png       | 0.071          | 0.068          | True     |
+| Ann_Veneman_0008.png           | 0.027          | 0.026          | True     |
+| Al_Gore_0004.png               | 0.016          | 0.016          | False    |
+| Andre_Agassi_0011.png          | 0.168          | 0.163          | True     |
+| Angelina_Jolie_0012.png        | 0.048          | 0.055          | False    |
+| Ariel_Sharon_0038.png          | 0.175          | 0.158          | True     |
+| Anna_Kournikova_0001.png       | 0.025          | 0.025          | True     |
+| Ariel_Sharon_0068.png          | 0.387          | 0.246          | True     |
+| Alvaro_Uribe_0019.png          | 0.060          | 0.097          | False    |
+| Atal_Bihari_Vajpayee_0010.png  | 0.096          | 0.101          | False    |
+| Alvaro_Uribe_0027.png          | 0.060          | 0.052          | True     |
+| Andre_Agassi_0010.png          | 0.161          | 0.159          | True     |
+| Alvaro_Uribe_0024.png          | 0.155          | 0.136          | True     |
+| Arnold_Schwarzenegger_0040.png | 0.160          | 0.174          | False    |
+| Andy_Roddick_0015.png          | 0.038          | 0.038          | False    |
+| Abdullah_Gul_0001.png          | 0.061          | 0.061          | True     |
+| Ariel_Sharon_0023.png          | 0.184          | 0.144          | True     |
+| Andre_Agassi_0009.png          | 0.115          | 0.073          | True     |
+| Andre_Agassi_0027.png          | 0.131          | 0.122          | True     |
+| Alejandro_Toledo_0004.png      | 0.109          | 0.097          | True     |
+| Alejandro_Toledo_0003.png      | 0.195          | 0.177          | True     |
+| Ann_Veneman_0003.png           | 0.026          | 0.025          | True     |
+| Ana_Palacio_0004.png           | 0.017          | 0.017          | False    |
+| Arnold_Schwarzenegger_0018.png | 0.106          | 0.147          | False    |
+| Angelina_Jolie_0005.png        | 0.050          | 0.060          | False    |
+| Ariel_Sharon_0075.png          | 0.371          | 0.259          | True     |
+| Angelina_Jolie_0016.png        | 0.059          | 0.059          | False    |
+| Ariel_Sharon_0034.png          | 0.215          | 0.201          | True     |
+| Andre_Agassi_0020.png          | 0.084          | 0.146          | False    |
+| Andre_Agassi_0019.png          | 0.130          | 0.135          | False    |
+| Alejandro_Toledo_0002.png      | 0.105          | 0.173          | False    |
+| Alejandro_Toledo_0001.png      | 0.123          | 0.127          | False    |
+| Alejandro_Toledo_0010.png      | 0.087          | 0.081          | True     |
+| Ariel_Sharon_0007.png          | 0.347          | 0.425          | False    |
+| Abdullah_Gul_0011.png          | 0.057          | 0.048          | True     |
+| Atal_Bihari_Vajpayee_0007.png  | 0.070          | 0.079          | False    |
+| Arnold_Schwarzenegger_0009.png | 0.232          | 0.200          | True     |
+| Atal_Bihari_Vajpayee_0005.png  | 0.102          | 0.101          | True     |
+| Ariel_Sharon_0002.png          | 0.432          | 0.390          | True     |
+| Ariel_Sharon_0059.png          | 0.356          | 0.340          | True     |
+| Alvaro_Uribe_0003.png          | 0.106          | 0.110          | False    |
+| Ariel_Sharon_0024.png          | 0.260          | 0.398          | False    |
+| Alejandro_Toledo_0027.png      | 0.220          | 0.214          | True     |
+| Alvaro_Uribe_0020.png          | 0.164          | 0.181          | False    |
+| Arnold_Schwarzenegger_0039.png | 0.264          | 0.266          | False    |
+| Ann_Veneman_0007.png           | 0.027          | 0.026          | True     |
+| Adrien_Brody_0003.png          | 0.032          | 0.031          | True     |
+| Angelina_Jolie_0017.png        | 0.043          | 0.046          | False    |
+| Angelina_Jolie_0018.png        | 0.046          | 0.032          | True     |
+| Alvaro_Uribe_0022.png          | 0.044          | 0.119          | False    |
+| Andre_Agassi_0032.png          | 0.043          | 0.090          | False    |
+| Ariel_Sharon_0005.png          | 0.288          | 0.348          | False    |
+| Alvaro_Uribe_0007.png          | 0.071          | 0.085          | False    |
+| Andre_Agassi_0033.png          | 0.048          | 0.118          | False    |
+| Alejandro_Toledo_0038.png      | 0.132          | 0.158          | False    |
+| Ariel_Sharon_0010.png          | 0.418          | 0.305          | True     |
+| Angelina_Jolie_0010.png        | 0.072          | 0.070          | True     |
+| Ariel_Sharon_0014.png          | 0.311          | 0.277          | True     |
+| Atal_Bihari_Vajpayee_0014.png  | 0.099          | 0.113          | False    |
+| Arnold_Schwarzenegger_0030.png | 0.221          | 0.189          | True     |
+| Ariel_Sharon_0071.png          | 0.315          | 0.350          | False    |
+| Ariel_Sharon_0039.png          | 0.260          | 0.299          | False    |
+| Ari_Fleischer_0013.png         | 0.020          | 0.022          | False    |
+| Angelina_Jolie_0004.png        | 0.053          | 0.053          | True     |
+| Alvaro_Uribe_0026.png          | 0.107          | 0.122          | False    |
+| Alvaro_Uribe_0010.png          | 0.186          | 0.177          | True     |
+| Ariel_Sharon_0064.png          | 0.214          | 0.217          | False    |
+| Antonio_Palocci_0008.png       | 0.017          | 0.018          | False    |
+| Ariel_Sharon_0057.png          | 0.284          | 0.282          | True     |
+| Arnold_Schwarzenegger_0007.png | 0.158          | 0.192          | False    |
+| Alvaro_Uribe_0014.png          | 0.121          | 0.144          | False    |
+| Al_Sharpton_0006.png           | 0.013          | 0.013          | True     |
+| Amelie_Mauresmo_0008.png       | 0.069          | 0.067          | True     |
+| Alvaro_Uribe_0005.png          | 0.106          | 0.125          | False    |
+| Ariel_Sharon_0026.png          | 0.210          | 0.279          | False    |
+| Andy_Roddick_0013.png          | 0.043          | 0.045          | False    |
+| Andre_Agassi_0023.png          | 0.164          | 0.169          | False    |
+| Ariel_Sharon_0030.png          | 0.174          | 0.058          | True     |
+| Andre_Agassi_0002.png          | 0.153          | 0.156          | False    |
+| Ann_Veneman_0011.png           | 0.026          | 0.027          | False    |
+| Ariel_Sharon_0062.png          | 0.338          | 0.175          | True     |
+| Amelie_Mauresmo_0003.png       | 0.062          | 0.064          | False    |
+| Alejandro_Toledo_0032.png      | 0.144          | 0.130          | True     |
+| Ariel_Sharon_0076.png          | 0.055          | 0.252          | False    |
+| Alejandro_Toledo_0037.png      | 0.098          | 0.094          | True     |
+| Ari_Fleischer_0009.png         | 0.030          | 0.031          | False    |
+| Alvaro_Uribe_0032.png          | 0.150          | 0.130          | True     |
+| Amelie_Mauresmo_0005.png       | 0.078          | 0.080          | False    |
+| Alejandro_Toledo_0005.png      | 0.164          | 0.120          | True     |
+| Alejandro_Toledo_0008.png      | 0.108          | 0.099          | True     |
+| Ari_Fleischer_0002.png         | 0.031          | 0.029          | True     |
+| Ariel_Sharon_0066.png          | 0.382          | 0.377          | True     |
+| Ann_Veneman_0001.png           | 0.023          | 0.024          | False    |
+| Angelina_Jolie_0009.png        | 0.071          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0009.png  | 0.108          | 0.097          | True     |
+| Arnold_Schwarzenegger_0033.png | 0.136          | 0.138          | False    |
+| Ariel_Sharon_0032.png          | 0.313          | 0.377          | False    |
+| Andre_Agassi_0014.png          | 0.140          | 0.154          | False    |
+| Alejandro_Toledo_0033.png      | 0.127          | 0.110          | True     |
+| Arnold_Schwarzenegger_0005.png | 0.196          | 0.172          | True     |
+| Ann_Veneman_0006.png           | 0.025          | 0.025          | True     |
+| Alvaro_Uribe_0002.png          | 0.101          | 0.088          | True     |
+| Angelina_Jolie_0014.png        | 0.063          | 0.070          | False    |
+| Abdullah_Gul_0007.png          | 0.065          | 0.068          | False    |
+| Atal_Bihari_Vajpayee_0003.png  | 0.120          | 0.121          | False    |
+| Alejandro_Toledo_0015.png      | 0.197          | 0.228          | False    |
+| Angelina_Jolie_0002.png        | 0.065          | 0.062          | True     |
+| Atal_Bihari_Vajpayee_0023.png  | 0.070          | 0.068          | True     |
+| Alejandro_Toledo_0007.png      | 0.227          | 0.239          | False    |
+| Arnold_Schwarzenegger_0013.png | 0.190          | 0.162          | True     |
+| Anna_Kournikova_0003.png       | 0.025          | 0.025          | True     |
+| Amelie_Mauresmo_0010.png       | 0.053          | 0.054          | False    |
+| Ariel_Sharon_0006.png          | 0.441          | 0.425          | True     |
+| Alvaro_Uribe_0035.png          | 0.125          | 0.058          | True     |
+| Ariel_Sharon_0045.png          | 0.389          | 0.358          | True     |
+| Antonio_Palocci_0003.png       | 0.018          | 0.018          | True     |
+| Arnold_Schwarzenegger_0010.png | 0.204          | 0.189          | True     |
+| Ari_Fleischer_0006.png         | 0.029          | 0.028          | True     |
+| Ariel_Sharon_0008.png          | 0.191          | 0.227          | False    |
+| Angelina_Jolie_0015.png        | 0.064          | 0.059          | True     |
+| Arnold_Schwarzenegger_0011.png | 0.096          | 0.091          | True     |
+| Ann_Veneman_0005.png           | 0.026          | 0.026          | False    |
+| Alejandro_Toledo_0019.png      | 0.166          | 0.185          | False    |
+| Angelina_Jolie_0019.png        | 0.046          | 0.052          | False    |
+| Ariel_Sharon_0077.png          | 0.424          | 0.307          | True     |
+| Alvaro_Uribe_0009.png          | 0.130          | 0.175          | False    |
+| Ariel_Sharon_0016.png          | 0.464          | 0.436          | True     |
+| Angelina_Jolie_0008.png        | 0.063          | 0.058          | True     |
+| Ariel_Sharon_0047.png          | 0.348          | 0.253          | True     |
+| Ariel_Sharon_0025.png          | 0.313          | 0.291          | True     |
+| Andre_Agassi_0013.png          | 0.099          | 0.091          | True     |
+| Al_Sharpton_0002.png           | 0.014          | 0.013          | True     |
+| Atal_Bihari_Vajpayee_0024.png  | 0.103          | 0.104          | False    |
+| Ariel_Sharon_0049.png          | 0.354          | 0.332          | True     |
+| Andre_Agassi_0015.png          | 0.139          | 0.161          | False    |
+| Atal_Bihari_Vajpayee_0017.png  | 0.078          | 0.062          | True     |
+| Ariel_Sharon_0069.png          | 0.268          | 0.320          | False    |
+| Atal_Bihari_Vajpayee_0016.png  | 0.036          | 0.073          | False    |
+| Ali_Naimi_0007.png             | 0.017          | 0.017          | True     |
+| Ariel_Sharon_0001.png          | 0.325          | 0.335          | False    |
+| Arnold_Schwarzenegger_0004.png | 0.088          | 0.077          | True     |
+| Andre_Agassi_0004.png          | 0.173          | 0.161          | True     |
+| Alejandro_Toledo_0029.png      | 0.173          | 0.164          | True     |
+| Atal_Bihari_Vajpayee_0006.png  | 0.079          | 0.082          | False    |
+| Ariel_Sharon_0052.png          | 0.039          | 0.111          | False    |
+| Ariel_Sharon_0033.png          | 0.290          | 0.271          | True     |
+| Arnold_Schwarzenegger_0016.png | 0.230          | 0.198          | True     |
++--------------------------------+----------------+----------------+----------+
++----------------------------+---------+
+| Comparison Results         | Value   |
++----------------------------+---------+
+| Total faces:               | 1050    |
+| Lost:                      | 54      |
+| Found:                     | 21      |
+| Lost/found score:          | 0.44    |
+| Disguised:                 | 23      |
+| Exposed:                   | 8       |
+| Disguised/exposed score:   | 0.483   |
+| Improved ratio:            | 135/262 |
+| Improved percentage score: | 0.030   |
+| Improved score:            | -1.45   |
+| Overall score:             | 0.021   |
++----------------------------+---------+

@@ -4,7 +4,6 @@ import os
 import cv2
 import sys
 
-
 # Parameters
 # ----------
 # image : ndarray
@@ -21,8 +20,8 @@ import sys
 def noisy(noise_typ,image):
   if noise_typ == "gauss":
       row,col,ch= image.shape
-      mean = 1
-      var = 100
+      mean = 0
+      var = int(sys.argv[4])
       sigma = var**0.5
       gauss = np.random.normal(mean,sigma,(row,col,ch))
       gauss = gauss.reshape(row,col,ch)
@@ -31,7 +30,7 @@ def noisy(noise_typ,image):
   elif noise_typ == "sp":
       row,col,ch = image.shape
       s_vs_p = 0.5
-      amount = 0.004
+      amount = float(sys.argv[4])
       out = np.copy(image)
       # Salt mode
       num_salt = np.ceil(amount * image.size * s_vs_p)
@@ -48,12 +47,12 @@ def noisy(noise_typ,image):
   elif noise_typ == "poisson":
       vals = len(np.unique(image))
       vals = np.ceil(np.log2(vals))
-      noisy = np.random.poisson(image * vals) / float(vals)
+      noisy = np.random.poisson(image * vals) / float(vals) 
       return noisy
   elif noise_typ =="speckle":
       row,col,ch = image.shape
       gauss = np.random.randn(row,col,ch)
-      gauss = gauss.reshape(row,col,ch)        
+      gauss = gauss.reshape(row,col,ch) * float(sys.argv[4]) 
       noisy = image + image * gauss
       return noisy
 
@@ -78,19 +77,27 @@ def noisy(noise_typ,image):
 
 base_dir = "noise_output/"
 
-def noisy_directory(input_dir, noise_typ):
-  print "adding noise " + noise_typ + " to directory " + input_dir 
+def noisy_directory(input_dir, noise_typ, output_dir):
+  print "adding noise " + noise_typ + " to directory " + input_dir + " , named " + output_dir
   subdirectories = [x[0] for x in os.walk(input_dir)][1:]
+
+  new_base_dir = base_dir + output_dir
+  if not os.path.exists(new_base_dir):
+      os.makedirs(new_base_dir)
+
   for subdirectory in subdirectories:
-      sub_dir = base_dir + subdirectory
-      if not os.path.exists(sub_dir):
-        os.makedirs(sub_dir)
+      new_subdirectory = subdirectory.split("/")[2]
+      new_sub_dir = base_dir + "/" + output_dir + "/" + new_subdirectory
+      if not os.path.exists(new_sub_dir):
+        os.makedirs(new_sub_dir)
 
       for item in os.listdir(subdirectory):
         item_path = subdirectory + "/" + item
-        output_path = base_dir + item_path
+        output_path = new_base_dir + "/" + new_subdirectory + "/" + item
         image = cv2.imread(item_path)
         output_image = noisy(noise_typ, image)
         cv2.imwrite(output_path, output_image)
   print "done"
-noisy_directory(sys.argv[1], sys.argv[2])
+
+# input directory, type of noise, desired output directory name
+noisy_directory(sys.argv[1], sys.argv[2], sys.argv[3])

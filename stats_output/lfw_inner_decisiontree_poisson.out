@@ -1,0 +1,2192 @@
++--------------------------------+-------------------+
+| data/lfw_inner_aligned metrics | Value             |
++--------------------------------+-------------------+
+| Total faces:                   | 6715              |
+| Detected:                      | 5425/6715 (0.807) |
+| Recognized:                    | 1647/5425 (0.303) |
+| Total confidence:              | 513.1             |
++--------------------------------+-------------------+
++-----------------------------------+-------------------+
+| lfw_inner_aligned_poisson metrics | Value             |
++-----------------------------------+-------------------+
+| Total faces:                      | 6715              |
+| Detected:                         | 5428/6715 (0.808) |
+| Recognized:                       | 1651/5428 (0.304) |
+| Total confidence:                 | 483.4             |
++-----------------------------------+-------------------+
+
+
+COMPARING.
+
+Disguised:
++------------------------------------------+------------------------------+----------------+---------------------------------+----------------+
+| FILE                                     | NEW TARGET                   | NEW CONFIDENCE | OLD TARGET                      | OLD CONFIDENCE |
++------------------------------------------+------------------------------+----------------+---------------------------------+----------------+
+| Ariel_Sharon_0056.png                    | Alejandro_Toledo             | 0.071          | Ariel_Sharon                    | 1.0            |
+| Charles_Moose_0013.png                   | Jackie_Chan                  | 0.056          | Charles_Moose                   | 1.0            |
+| Tony_Blair_0128.png                      | Vladimir_Putin               | 0.016          | Tony_Blair                      | 1.0            |
+| Jennifer_Lopez_0011.png                  | Christine_Baumgartner        | 0.833          | Jennifer_Lopez                  | 0.928          |
+| Hamid_Karzai_0016.png                    | Vladimir_Putin               | 0.016          | Hamid_Karzai                    | 1.0            |
+| John_Negroponte_0011.png                 | John_Ashcroft                | 1.0            | John_Negroponte                 | 1.0            |
+| Mahmoud_Abbas_0026.png                   | Luis_Gonzalez_Macchi         | 1.0            | Mahmoud_Abbas                   | 1.0            |
+| Arnold_Schwarzenegger_0039.png           | Gordon_Brown                 | 0.074          | Arnold_Schwarzenegger           | 1.0            |
+| George_W_Bush_0313.png                   | Harry_Schmidt                | 1.0            | George_W_Bush                   | 1.0            |
+| Nestor_Kirchner_0008.png                 | Ariel_Sharon                 | 0.083          | Nestor_Kirchner                 | 1.0            |
+| Gerhard_Schroeder_0090.png               | Colin_Powell                 | 0.111          | Gerhard_Schroeder               | 1.0            |
+| Donald_Rumsfeld_0014.png                 | Colin_Powell                 | 0.1            | Donald_Rumsfeld                 | 1.0            |
+| Ariel_Sharon_0052.png                    | Joschka_Fischer              | 0.046          | Ariel_Sharon                    | 0.083          |
+| David_Nalbandian_0009.png                | Michael_Douglas              | 0.033          | David_Nalbandian                | 1.0            |
+| Alec_Baldwin_0002.png                    | Jacques_Rogge                | 1.0            | Alec_Baldwin                    | 1.0            |
+| Tim_Duncan_0001.png                      | Jackie_Chan                  | 0.056          | Tim_Duncan                      | 1.0            |
+| Venus_Williams_0005.png                  | Gerhard_Schroeder            | 0.033          | Venus_Williams                  | 1.0            |
+| Silvio_Berlusconi_0029.png               | Vladimir_Putin               | 0.016          | Silvio_Berlusconi               | 0.036          |
+| Hugo_Chavez_0061.png                     | Vladimir_Putin               | 0.016          | Hugo_Chavez                     | 1.0            |
+| George_W_Bush_0235.png                   | Silvio_Berlusconi            | 0.036          | George_W_Bush                   | 1.0            |
+| Gloria_Macapagal_Arroyo_0020.png         | Megawati_Sukarnoputri        | 1.0            | Gloria_Macapagal_Arroyo         | 1.0            |
+| Ariel_Sharon_0041.png                    | Mahathir_Mohamad             | 0.258          | Ariel_Sharon                    | 1.0            |
+| Meryl_Streep_0013.png                    | Vladimir_Putin               | 0.016          | Meryl_Streep                    | 1.0            |
+| Roh_Moo-hyun_0027.png                    | Vladimir_Putin               | 0.016          | Roh_Moo-hyun                    | 1.0            |
+| John_Ashcroft_0010.png                   | Joschka_Fischer              | 0.046          | John_Ashcroft                   | 1.0            |
+| Gerhard_Schroeder_0106.png               | Joschka_Fischer              | 0.046          | Gerhard_Schroeder               | 1.0            |
+| David_Beckham_0013.png                   | Michael_Douglas              | 0.033          | David_Beckham                   | 0.393          |
+| Julianne_Moore_0008.png                  | Jennifer_Capriati            | 1.0            | Julianne_Moore                  | 1.0            |
+| Salma_Hayek_0007.png                     | Naomi_Watts                  | 0.030          | Salma_Hayek                     | 1.0            |
+| George_W_Bush_0077.png                   | John_Allen_Muhammad          | 0.2            | George_W_Bush                   | 1.0            |
+| George_W_Bush_0530.png                   | John_Howard                  | 1.0            | George_W_Bush                   | 1.0            |
+| Andre_Agassi_0034.png                    | Michael_Douglas              | 0.033          | Andre_Agassi                    | 1.0            |
+| Mark_Philippoussis_0005.png              | Vladimir_Putin               | 0.016          | Mark_Philippoussis              | 1.0            |
+| Mohammed_Al-Douri_0013.png               | Jackie_Chan                  | 0.5            | Mohammed_Al-Douri               | 1.0            |
+| Paul_Bremer_0011.png                     | Silvio_Berlusconi            | 0.036          | Paul_Bremer                     | 1.0            |
+| Roger_Federer_0013.png                   | Arnold_Schwarzenegger        | 0.090          | Roger_Federer                   | 1.0            |
+| Jean_Chretien_0050.png                   | Vladimir_Putin               | 0.016          | Jean_Chretien                   | 1.0            |
+| Michael_Chiklis_0005.png                 | Mohammed_Al-Douri            | 1.0            | Michael_Chiklis                 | 1.0            |
+| Silvio_Berlusconi_0021.png               | Alvaro_Silva_Calderon        | 1.0            | Silvio_Berlusconi               | 1.0            |
+| Bill_McBride_0004.png                    | Luis_Ernesto_Derbez_Bautista | 1.0            | Bill_McBride                    | 1.0            |
+| Donald_Rumsfeld_0016.png                 | Gunter_Pleuger               | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| Kofi_Annan_0001.png                      | Hipolito_Mejia               | 1.0            | Kofi_Annan                      | 1.0            |
+| Colin_Powell_0101.png                    | Choi_Sung-hong               | 1.0            | Colin_Powell                    | 1.0            |
+| Mahmoud_Abbas_0014.png                   | Gonzalo_Sanchez_de_Lozada    | 0.6            | Mahmoud_Abbas                   | 1.0            |
+| George_W_Bush_0504.png                   | Paul_Martin                  | 1.0            | George_W_Bush                   | 1.0            |
+| Wayne_Ferreira_0004.png                  | Vladimir_Putin               | 0.016          | Wayne_Ferreira                  | 0.6            |
+| Paul_Wolfowitz_0002.png                  | Gil_de_Ferran                | 1.0            | Paul_Wolfowitz                  | 1.0            |
+| Arnold_Schwarzenegger_0026.png           | Gordon_Brown                 | 0.074          | Arnold_Schwarzenegger           | 1.0            |
+| Gerhard_Schroeder_0064.png               | Joschka_Fischer              | 0.046          | Gerhard_Schroeder               | 1.0            |
+| Jeremy_Greenstock_0021.png               | Vladimir_Putin               | 0.016          | Jeremy_Greenstock               | 1.0            |
+| Tony_Blair_0014.png                      | John_Ashcroft                | 1.0            | Tony_Blair                      | 1.0            |
+| Recep_Tayyip_Erdogan_0012.png            | Vladimir_Putin               | 0.016          | Recep_Tayyip_Erdogan            | 1.0            |
+| Kim_Ryong-sung_0009.png                  | Silvio_Berlusconi            | 0.036          | Kim_Ryong-sung                  | 0.666          |
+| Colin_Powell_0044.png                    | Muhammad_Ali                 | 1.0            | Colin_Powell                    | 1.0            |
+| Jeremy_Greenstock_0018.png               | Vladimir_Putin               | 0.016          | Jeremy_Greenstock               | 1.0            |
+| Alvaro_Uribe_0004.png                    | Michael_Douglas              | 0.033          | Alvaro_Uribe                    | 1.0            |
+| Bernard_Law_0003.png                     | Gerhard_Schroeder            | 0.033          | Bernard_Law                     | 1.0            |
+| George_W_Bush_0091.png                   | Mark_Hurlbert                | 1.0            | George_W_Bush                   | 1.0            |
+| Gloria_Macapagal_Arroyo_0002.png         | Megawati_Sukarnoputri        | 1.0            | Gloria_Macapagal_Arroyo         | 1.0            |
+| Roger_Moore_0001.png                     | Michael_Douglas              | 0.033          | Roger_Moore                     | 1.0            |
+| John_Negroponte_0007.png                 | Vladimir_Putin               | 0.016          | John_Negroponte                 | 1.0            |
+| Carlos_Moya_0017.png                     | Paul_Bremer                  | 1.0            | Carlos_Moya                     | 1.0            |
+| Roh_Moo-hyun_0007.png                    | Li_Zhaoxing                  | 1.0            | Roh_Moo-hyun                    | 1.0            |
+| George_W_Bush_0432.png                   | Alan_Greenspan               | 0.142          | George_W_Bush                   | 1.0            |
+| Rubens_Barrichello_0001.png              | Amelie_Mauresmo              | 1.0            | Rubens_Barrichello              | 1.0            |
+| Mahathir_Mohamad_0005.png                | Ricardo_Lagos                | 1.0            | Mahathir_Mohamad                | 0.258          |
+| Lleyton_Hewitt_0038.png                  | Andre_Agassi                 | 0.062          | Lleyton_Hewitt                  | 1.0            |
+| Gordon_Brown_0007.png                    | Andre_Agassi                 | 0.062          | Gordon_Brown                    | 1.0            |
+| Colin_Powell_0192.png                    | Vladimir_Putin               | 0.016          | Colin_Powell                    | 1.0            |
+| Alvaro_Uribe_0002.png                    | Michael_Douglas              | 0.033          | Alvaro_Uribe                    | 1.0            |
+| Ben_Howland_0003.png                     | Jeremy_Greenstock            | 1.0            | Ben_Howland                     | 1.0            |
+| Donald_Rumsfeld_0113.png                 | Michael_Douglas              | 0.033          | Donald_Rumsfeld                 | 1.0            |
+| Celine_Dion_0005.png                     | Liza_Minnelli                | 1.0            | Celine_Dion                     | 1.0            |
+| Paula_Radcliffe_0001.png                 | Angela_Merkel                | 0.057          | Paula_Radcliffe                 | 1.0            |
+| George_W_Bush_0076.png                   | Harrison_Ford                | 1.0            | George_W_Bush                   | 1.0            |
+| Jeremy_Greenstock_0005.png               | Michael_Douglas              | 0.033          | Jeremy_Greenstock               | 1.0            |
+| Jacques_Chirac_0022.png                  | Colin_Powell                 | 0.111          | Jacques_Chirac                  | 1.0            |
+| Megawati_Sukarnoputri_0028.png           | Zhang_Ziyi                   | 1.0            | Megawati_Sukarnoputri           | 1.0            |
+| Jennifer_Capriati_0012.png               | Arnold_Schwarzenegger        | 0.137          | Jennifer_Capriati               | 1.0            |
+| David_Nalbandian_0013.png                | George_W_Bush                | 1.0            | David_Nalbandian                | 1.0            |
+| Rudolph_Giuliani_0026.png                | Vladimir_Putin               | 0.016          | Rudolph_Giuliani                | 1.0            |
+| Colin_Powell_0127.png                    | Choi_Sung-hong               | 1.0            | Colin_Powell                    | 1.0            |
+| Abdoulaye_Wade_0002.png                  | Mike_Tyson                   | 1.0            | Abdoulaye_Wade                  | 1.0            |
+| Taha_Yassin_Ramadan_0003.png             | Mahathir_Mohamad             | 0.258          | Taha_Yassin_Ramadan             | 1.0            |
+| Alejandro_Toledo_0032.png                | Mahathir_Mohamad             | 0.258          | Alejandro_Toledo                | 1.0            |
+| Charles_Moose_0005.png                   | William_Macy                 | 1.0            | Charles_Moose                   | 1.0            |
+| Tom_Crean_0001.png                       | Jean_Charest                 | 1.0            | Tom_Crean                       | 1.0            |
+| Tony_Blair_0105.png                      | Gerhard_Schroeder            | 0.033          | Tony_Blair                      | 1.0            |
+| Richard_Armitage_0001.png                | Mahathir_Mohamad             | 0.258          | Richard_Armitage                | 1.0            |
+| Kofi_Annan_0007.png                      | Vladimir_Putin               | 0.016          | Kofi_Annan                      | 1.0            |
+| Bill_Clinton_0014.png                    | Nestor_Kirchner              | 1.0            | Bill_Clinton                    | 1.0            |
+| Christine_Baumgartner_0001.png           | Jennifer_Aniston             | 0.846          | Christine_Baumgartner           | 0.833          |
+| George_W_Bush_0343.png                   | Sergei_Ivanov                | 1.0            | George_W_Bush                   | 1.0            |
+| David_Beckham_0023.png                   | Vladimir_Putin               | 0.016          | David_Beckham                   | 0.393          |
+| Laura_Bush_0019.png                      | Vladimir_Putin               | 0.016          | Laura_Bush                      | 1.0            |
+| Silvio_Berlusconi_0032.png               | Vladimir_Putin               | 0.016          | Silvio_Berlusconi               | 0.036          |
+| Tom_Craddick_0001.png                    | Silvio_Berlusconi            | 0.036          | Tom_Craddick                    | 1.0            |
+| Alvaro_Uribe_0013.png                    | Gerry_Adams                  | 1.0            | Alvaro_Uribe                    | 1.0            |
+| Sean_OKeefe_0003.png                     | Joschka_Fischer              | 1.0            | Sean_OKeefe                     | 1.0            |
+| Atal_Bihari_Vajpayee_0001.png            | Vladimir_Putin               | 0.016          | Atal_Bihari_Vajpayee            | 1.0            |
+| Ariel_Sharon_0059.png                    | Dick_Cheney                  | 0.2            | Ariel_Sharon                    | 1.0            |
+| Mahmoud_Abbas_0027.png                   | Joschka_Fischer              | 0.046          | Mahmoud_Abbas                   | 1.0            |
+| Sila_Calderon_0003.png                   | Vladimir_Putin               | 0.016          | Sila_Calderon                   | 1.0            |
+| Rudolph_Giuliani_0022.png                | Tommy_Haas                   | 1.0            | Rudolph_Giuliani                | 1.0            |
+| Paul_Bremer_0006.png                     | Robert_Duvall                | 1.0            | Paul_Bremer                     | 1.0            |
+| Arnold_Schwarzenegger_0032.png           | Vladimir_Putin               | 0.016          | Arnold_Schwarzenegger           | 1.0            |
+| Rudolph_Giuliani_0004.png                | Padraig_Harrington           | 1.0            | Rudolph_Giuliani                | 1.0            |
+| Ariel_Sharon_0025.png                    | Dick_Cheney                  | 0.75           | Ariel_Sharon                    | 0.083          |
+| Lindsay_Davenport_0002.png               | Naomi_Watts                  | 0.030          | Lindsay_Davenport               | 1.0            |
+| John_Snow_0010.png                       | Gerhard_Schroeder            | 0.033          | John_Snow                       | 1.0            |
+| Tim_Allen_0002.png                       | Gordon_Brown                 | 0.074          | Tim_Allen                       | 1.0            |
+| Venus_Williams_0004.png                  | LeBron_James                 | 1.0            | Venus_Williams                  | 1.0            |
+| Colin_Powell_0203.png                    | Vladimir_Putin               | 0.016          | Colin_Powell                    | 1.0            |
+| Andy_Roddick_0008.png                    | Michael_Douglas              | 0.033          | Andy_Roddick                    | 1.0            |
+| Megawati_Sukarnoputri_0030.png           | Jackie_Chan                  | 0.056          | Megawati_Sukarnoputri           | 1.0            |
+| Charles_Moose_0007.png                   | William_Macy                 | 1.0            | Charles_Moose                   | 1.0            |
+| Joe_Nichols_0004.png                     | George_W_Bush                | 1.0            | Joe_Nichols                     | 1.0            |
+| Denzel_Washington_0003.png               | Abdoulaye_Wade               | 1.0            | Denzel_Washington               | 1.0            |
+| Colin_Powell_0115.png                    | Gerhard_Schroeder            | 0.033          | Colin_Powell                    | 1.0            |
+| George_HW_Bush_0008.png                  | George_W_Bush                | 1.0            | George_HW_Bush                  | 1.0            |
+| George_W_Bush_0024.png                   | Arnold_Schwarzenegger        | 1.0            | George_W_Bush                   | 1.0            |
+| Gerhard_Schroeder_0109.png               | John_Ashcroft                | 1.0            | Gerhard_Schroeder               | 1.0            |
+| George_W_Bush_0519.png                   | Bernard_Law                  | 0.083          | George_W_Bush                   | 1.0            |
+| George_W_Bush_0319.png                   | Harrison_Ford                | 1.0            | George_W_Bush                   | 1.0            |
+| George_W_Bush_0072.png                   | Gil_de_Ferran                | 1.0            | George_W_Bush                   | 1.0            |
+| Laura_Bush_0014.png                      | Gloria_Macapagal_Arroyo      | 1.0            | Laura_Bush                      | 1.0            |
+| George_W_Bush_0278.png                   | Colin_Powell                 | 0.111          | George_W_Bush                   | 1.0            |
+| Donald_Rumsfeld_0054.png                 | Gerhard_Schroeder            | 0.25           | Donald_Rumsfeld                 | 1.0            |
+| Hamid_Karzai_0010.png                    | Ariel_Sharon                 | 1.0            | Hamid_Karzai                    | 1.0            |
+| Roh_Moo-hyun_0008.png                    | Kim_Dae-jung                 | 0.194          | Roh_Moo-hyun                    | 1.0            |
+| Larry_Brown_0003.png                     | Vladimir_Putin               | 0.016          | Larry_Brown                     | 1.0            |
+| Amelie_Mauresmo_0007.png                 | Andy_Roddick                 | 1.0            | Amelie_Mauresmo                 | 0.333          |
+| Pervez_Musharraf_0004.png                | Paradorn_Srichaphan          | 1.0            | Pervez_Musharraf                | 1.0            |
+| Vicente_Fox_0009.png                     | George_W_Bush                | 1.0            | Vicente_Fox                     | 1.0            |
+| Jacques_Chirac_0017.png                  | Jean_Charest                 | 1.0            | Jacques_Chirac                  | 1.0            |
+| Hans_Blix_0008.png                       | Silvio_Berlusconi            | 0.036          | Hans_Blix                       | 1.0            |
+| Oscar_De_La_Hoya_0007.png                | Alejandro_Toledo             | 1.0            | Oscar_De_La_Hoya                | 1.0            |
+| Harrison_Ford_0008.png                   | Michael_Douglas              | 0.033          | Harrison_Ford                   | 1.0            |
+| George_W_Bush_0493.png                   | Michael_Douglas              | 0.033          | George_W_Bush                   | 1.0            |
+| Colin_Powell_0035.png                    | Choi_Sung-hong               | 1.0            | Colin_Powell                    | 1.0            |
+| Ariel_Sharon_0073.png                    | Jacques_Chirac               | 0.065          | Ariel_Sharon                    | 0.083          |
+| Donald_Rumsfeld_0052.png                 | David_Wells                  | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| George_W_Bush_0416.png                   | Mitchell_Daniels             | 1.0            | George_W_Bush                   | 1.0            |
+| Pervez_Musharraf_0003.png                | Silvio_Berlusconi            | 0.036          | Pervez_Musharraf                | 1.0            |
+| Serena_Williams_0009.png                 | Venus_Williams               | 1.0            | Serena_Williams                 | 1.0            |
+| Vladimir_Putin_0004.png                  | Junichiro_Koizumi            | 0.866          | Vladimir_Putin                  | 0.016          |
+| Jennifer_Lopez_0013.png                  | Catherine_Zeta-Jones         | 0.142          | Jennifer_Lopez                  | 0.928          |
+| Gil_de_Ferran_0003.png                   | Alvaro_Uribe                 | 0.058          | Gil_de_Ferran                   | 1.0            |
+| Junichiro_Koizumi_0007.png               | Wen_Jiabao                   | 1.0            | Junichiro_Koizumi               | 1.0            |
+| Serena_Williams_0051.png                 | Venus_Williams               | 1.0            | Serena_Williams                 | 1.0            |
+| Walter_Mondale_0002.png                  | Joschka_Fischer              | 0.046          | Walter_Mondale                  | 1.0            |
+| Winona_Ryder_0002.png                    | Vladimir_Putin               | 0.016          | Winona_Ryder                    | 1.0            |
+| Valery_Giscard_dEstaing_0005.png         | Lleyton_Hewitt               | 1.0            | Valery_Giscard_dEstaing         | 1.0            |
+| George_W_Bush_0173.png                   | Michael_Douglas              | 0.033          | George_W_Bush                   | 1.0            |
+| Atal_Bihari_Vajpayee_0004.png            | Zhu_Rongji                   | 1.0            | Atal_Bihari_Vajpayee            | 1.0            |
+| Jacques_Chirac_0018.png                  | Colin_Powell                 | 0.111          | Jacques_Chirac                  | 1.0            |
+| George_W_Bush_0449.png                   | Jason_Kidd                   | 1.0            | George_W_Bush                   | 1.0            |
+| Jiang_Zemin_0009.png                     | Junichiro_Koizumi            | 1.0            | Jiang_Zemin                     | 1.0            |
+| Paula_Radcliffe_0002.png                 | Arianna_Huffington           | 1.0            | Paula_Radcliffe                 | 1.0            |
+| George_HW_Bush_0011.png                  | Javier_Solana                | 0.142          | George_HW_Bush                  | 1.0            |
+| Silvio_Berlusconi_0027.png               | Vladimir_Putin               | 0.333          | Silvio_Berlusconi               | 1.0            |
+| Gerhard_Schroeder_0085.png               | George_W_Bush                | 1.0            | Gerhard_Schroeder               | 0.125          |
+| Ricardo_Lagos_0025.png                   | Vladimir_Putin               | 0.016          | Ricardo_Lagos                   | 1.0            |
+| Donald_Rumsfeld_0006.png                 | David_Wells                  | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| Harrison_Ford_0009.png                   | George_HW_Bush               | 1.0            | Harrison_Ford                   | 1.0            |
+| Megawati_Sukarnoputri_0005.png           | Yoriko_Kawaguchi             | 1.0            | Megawati_Sukarnoputri           | 1.0            |
+| Vladimir_Putin_0021.png                  | Ariel_Sharon                 | 0.083          | Vladimir_Putin                  | 1.0            |
+| Colin_Powell_0052.png                    | George_Galloway              | 1.0            | Colin_Powell                    | 1.0            |
+| Jean-Pierre_Raffarin_0004.png            | Bill_McBride                 | 1.0            | Jean-Pierre_Raffarin            | 1.0            |
+| John_Negroponte_0022.png                 | Ariel_Sharon                 | 0.083          | John_Negroponte                 | 1.0            |
+| James_Kelly_0004.png                     | David_Wells                  | 1.0            | James_Kelly                     | 1.0            |
+| Alejandro_Toledo_0010.png                | Silvio_Berlusconi            | 0.036          | Alejandro_Toledo                | 1.0            |
+| John_Negroponte_0001.png                 | Vladimir_Putin               | 0.016          | John_Negroponte                 | 1.0            |
+| Hamid_Karzai_0003.png                    | Ariel_Sharon                 | 1.0            | Hamid_Karzai                    | 1.0            |
+| Gerhard_Schroeder_0062.png               | Alvaro_Uribe                 | 1.0            | Gerhard_Schroeder               | 0.033          |
+| Mahathir_Mohamad_0003.png                | Hosni_Mubarak                | 1.0            | Mahathir_Mohamad                | 0.258          |
+| Colin_Powell_0153.png                    | Roy_Williams                 | 1.0            | Colin_Powell                    | 1.0            |
+| Hugo_Chavez_0041.png                     | Mahathir_Mohamad             | 0.258          | Hugo_Chavez                     | 1.0            |
+| Colin_Powell_0131.png                    | Win_Aung                     | 1.0            | Colin_Powell                    | 1.0            |
+| Jiang_Zemin_0012.png                     | Vladimir_Putin               | 0.016          | Jiang_Zemin                     | 1.0            |
+| Jacques_Chirac_0027.png                  | Christopher_Walken           | 1.0            | Jacques_Chirac                  | 1.0            |
+| Joschka_Fischer_0019.png                 | Luiz_Inacio_Lula_da_Silva    | 1.0            | Joschka_Fischer                 | 0.046          |
+| Bill_McBride_0008.png                    | Luis_Ernesto_Derbez_Bautista | 1.0            | Bill_McBride                    | 1.0            |
+| Kofi_Annan_0027.png                      | Charles_Moose                | 1.0            | Kofi_Annan                      | 1.0            |
+| Donald_Rumsfeld_0095.png                 | Bill_Simon                   | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| Colin_Powell_0065.png                    | Choi_Sung-hong               | 1.0            | Colin_Powell                    | 1.0            |
+| Tony_Blair_0075.png                      | Michael_Douglas              | 0.033          | Tony_Blair                      | 1.0            |
+| Pierce_Brosnan_0001.png                  | Gerhard_Schroeder            | 0.033          | Pierce_Brosnan                  | 1.0            |
+| Arnold_Schwarzenegger_0037.png           | Junichiro_Koizumi            | 1.0            | Arnold_Schwarzenegger           | 1.0            |
+| Jacques_Chirac_0007.png                  | Arnoldo_Aleman               | 1.0            | Jacques_Chirac                  | 1.0            |
+| Gloria_Macapagal_Arroyo_0008.png         | Kim_Dae-jung                 | 0.194          | Gloria_Macapagal_Arroyo         | 1.0            |
+| Gloria_Macapagal_Arroyo_0014.png         | Norah_Jones                  | 1.0            | Gloria_Macapagal_Arroyo         | 1.0            |
+| Tony_Blair_0114.png                      | Gerhard_Schroeder            | 0.033          | Tony_Blair                      | 1.0            |
+| Megawati_Sukarnoputri_0016.png           | Yoriko_Kawaguchi             | 1.0            | Megawati_Sukarnoputri           | 1.0            |
+| Nicole_Kidman_0013.png                   | Demi_Moore                   | 0.1            | Nicole_Kidman                   | 1.0            |
+| Jose_Maria_Aznar_0020.png                | David_Beckham                | 0.166          | Jose_Maria_Aznar                | 1.0            |
+| Colin_Powell_0108.png                    | Atal_Bihari_Vajpayee         | 0.062          | Colin_Powell                    | 1.0            |
+| Lleyton_Hewitt_0026.png                  | Michael_Douglas              | 0.033          | Lleyton_Hewitt                  | 1.0            |
+| Laura_Bush_0020.png                      | Gloria_Macapagal_Arroyo      | 1.0            | Laura_Bush                      | 1.0            |
+| Donald_Rumsfeld_0037.png                 | Joschka_Fischer              | 0.046          | Donald_Rumsfeld                 | 1.0            |
+| Tim_Henman_0014.png                      | Vladimir_Putin               | 0.016          | Tim_Henman                      | 1.0            |
+| Ariel_Sharon_0064.png                    | Mahathir_Mohamad             | 0.258          | Ariel_Sharon                    | 1.0            |
+| Alejandro_Toledo_0016.png                | Jackie_Chan                  | 0.056          | Alejandro_Toledo                | 0.2            |
+| James_Blake_0014.png                     | Gordon_Brown                 | 0.074          | James_Blake                     | 1.0            |
+| Lleyton_Hewitt_0030.png                  | David_Beckham                | 0.393          | Lleyton_Hewitt                  | 1.0            |
+| Colin_Powell_0183.png                    | Vladimir_Putin               | 0.016          | Colin_Powell                    | 1.0            |
+| Madonna_0001.png                         | Naomi_Watts                  | 0.030          | Madonna                         | 1.0            |
+| Edmund_Stoiber_0006.png                  | Alan_Greenspan               | 0.142          | Edmund_Stoiber                  | 1.0            |
+| Colin_Farrell_0002.png                   | Kurt_Warner                  | 1.0            | Colin_Farrell                   | 1.0            |
+| Donald_Rumsfeld_0106.png                 | Bill_Simon                   | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| George_W_Bush_0223.png                   | Bill_McBride                 | 1.0            | George_W_Bush                   | 1.0            |
+| Hugo_Chavez_0025.png                     | Alejandro_Toledo             | 1.0            | Hugo_Chavez                     | 1.0            |
+| Tony_Blair_0040.png                      | Vladimir_Putin               | 0.016          | Tony_Blair                      | 1.0            |
+| Alastair_Campbell_0004.png               | Paul_Bremer                  | 1.0            | Alastair_Campbell               | 1.0            |
+| George_W_Bush_0290.png                   | John_Howard                  | 1.0            | George_W_Bush                   | 1.0            |
+| Andre_Agassi_0035.png                    | Michael_Douglas              | 0.033          | Andre_Agassi                    | 1.0            |
+| Megawati_Sukarnoputri_0013.png           | Kim_Dae-jung                 | 0.194          | Megawati_Sukarnoputri           | 1.0            |
+| Ariel_Sharon_0062.png                    | Mahathir_Mohamad             | 1.0            | Ariel_Sharon                    | 1.0            |
+| Vicente_Fox_0014.png                     | Kamal_Kharrazi               | 1.0            | Vicente_Fox                     | 1.0            |
+| Hugo_Chavez_0059.png                     | Vladimir_Putin               | 0.016          | Hugo_Chavez                     | 1.0            |
+| Franz_Fischler_0003.png                  | Tom_Hanks                    | 1.0            | Franz_Fischler                  | 1.0            |
+| Paul_Bremer_0013.png                     | John_Kerry                   | 1.0            | Paul_Bremer                     | 1.0            |
+| Jacques_Chirac_0036.png                  | Gerhard_Schroeder            | 0.033          | Jacques_Chirac                  | 1.0            |
+| Abdoulaye_Wade_0004.png                  | Silvio_Berlusconi            | 0.036          | Abdoulaye_Wade                  | 1.0            |
+| Bill_Simon_0012.png                      | Colin_Powell                 | 0.1            | Bill_Simon                      | 1.0            |
+| Tony_Blair_0013.png                      | Kevin_Costner                | 1.0            | Tony_Blair                      | 1.0            |
+| Yasser_Arafat_0006.png                   | Jackie_Chan                  | 0.056          | Yasser_Arafat                   | 1.0            |
+| Jacques_Chirac_0012.png                  | Colin_Powell                 | 0.111          | Jacques_Chirac                  | 1.0            |
+| Colin_Farrell_0007.png                   | Vladimir_Putin               | 0.016          | Colin_Farrell                   | 1.0            |
+| Choi_Sung-hong_0001.png                  | Angela_Merkel                | 0.057          | Choi_Sung-hong                  | 1.0            |
+| Jennifer_Aniston_0019.png                | Naomi_Watts                  | 0.030          | Jennifer_Aniston                | 0.846          |
+| John_Ashcroft_0044.png                   | Joschka_Fischer              | 0.046          | John_Ashcroft                   | 1.0            |
+| Gerhard_Schroeder_0040.png               | Sergei_Ivanov                | 1.0            | Gerhard_Schroeder               | 1.0            |
+| Hitomi_Soga_0005.png                     | Naomi_Watts                  | 0.030          | Hitomi_Soga                     | 1.0            |
+| Jack_Straw_0009.png                      | Bill_McBride                 | 1.0            | Jack_Straw                      | 1.0            |
+| Maria_Soledad_Alvear_Valenzuela_0002.png | Angela_Merkel                | 0.057          | Maria_Soledad_Alvear_Valenzuela | 0.5            |
+| Gerhard_Schroeder_0074.png               | Vladimir_Putin               | 0.016          | Gerhard_Schroeder               | 1.0            |
+| Thaksin_Shinawatra_0001.png              | Heizo_Takenaka               | 1.0            | Thaksin_Shinawatra              | 1.0            |
+| Donald_Rumsfeld_0007.png                 | Paradorn_Srichaphan          | 1.0            | Donald_Rumsfeld                 | 1.0            |
+| Junichiro_Koizumi_0057.png               | George_W_Bush                | 1.0            | Junichiro_Koizumi               | 1.0            |
+| Tony_Blair_0003.png                      | Vladimir_Putin               | 0.016          | Tony_Blair                      | 1.0            |
+| Vladimir_Putin_0002.png                  | Javier_Solana                | 0.142          | Vladimir_Putin                  | 0.333          |
+| Gloria_Macapagal_Arroyo_0044.png         | Yoriko_Kawaguchi             | 1.0            | Gloria_Macapagal_Arroyo         | 1.0            |
+| Jeremy_Greenstock_0008.png               | Zhu_Rongji                   | 1.0            | Jeremy_Greenstock               | 1.0            |
+| Donald_Rumsfeld_0073.png                 | Michael_Douglas              | 0.033          | Donald_Rumsfeld                 | 1.0            |
+| Mahmoud_Abbas_0003.png                   | Silvio_Berlusconi            | 0.036          | Mahmoud_Abbas                   | 1.0            |
+| Bob_Graham_0005.png                      | John_Paul_II                 | 1.0            | Bob_Graham                      | 1.0            |
+| Kofi_Annan_0014.png                      | Win_Aung                     | 1.0            | Kofi_Annan                      | 1.0            |
+| Silvio_Berlusconi_0009.png               | Vanessa_Redgrave             | 1.0            | Silvio_Berlusconi               | 0.036          |
+| Denzel_Washington_0001.png               | Charles_Taylor               | 1.0            | Denzel_Washington               | 1.0            |
+| George_W_Bush_0326.png                   | Jeremy_Greenstock            | 1.0            | George_W_Bush                   | 1.0            |
+| Igor_Ivanov_0015.png                     | Vladimir_Putin               | 0.016          | Igor_Ivanov                     | 1.0            |
+| Bill_Simon_0003.png                      | Paul_Martin                  | 1.0            | Bill_Simon                      | 1.0            |
+| Rafael_Ramirez_0002.png                  | Francisco_Flores             | 1.0            | Rafael_Ramirez                  | 1.0            |
+| Yu_Shyi-kun_0001.png                     | Jackie_Chan                  | 0.056          | Yu_Shyi-kun                     | 1.0            |
+| Jake_Gyllenhaal_0001.png                 | Vladimir_Putin               | 0.016          | Jake_Gyllenhaal                 | 1.0            |
+| Tang_Jiaxuan_0009.png                    | Kim_Dae-jung                 | 0.194          | Tang_Jiaxuan                    | 1.0            |
+| Richard_Myers_0004.png                   | Michael_Bloomberg            | 1.0            | Richard_Myers                   | 1.0            |
+| Nicole_Kidman_0016.png                   | Demi_Moore                   | 0.1            | Nicole_Kidman                   | 1.0            |
+| Ariel_Sharon_0047.png                    | Mahmoud_Abbas                | 1.0            | Ariel_Sharon                    | 1.0            |
+| John_Allen_Muhammad_0001.png             | Denzel_Washington            | 1.0            | John_Allen_Muhammad             | 1.0            |
+| Gordon_Brown_0012.png                    | Ali_Naimi                    | 0.25           | Gordon_Brown                    | 0.074          |
+| Maria_Soledad_Alvear_Valenzuela_0005.png | Angela_Merkel                | 0.057          | Maria_Soledad_Alvear_Valenzuela | 0.5            |
+| Vladimir_Putin_0001.png                  | Silvio_Berlusconi            | 0.036          | Vladimir_Putin                  | 0.016          |
++------------------------------------------+------------------------------+----------------+---------------------------------+----------------+
+
+Exposed:
++------------------------------------+----------------+------------------------+----------------+
+| FILE                               | NEW CONFIDENCE | OLD TARGET             | OLD CONFIDENCE |
++------------------------------------+----------------+------------------------+----------------+
+| Jason_Kidd_0008.png                | 1.0            | Jackie_Chan            | 0.056          |
+| Jacques_Chirac_0050.png            | 1.0            | Joschka_Fischer        | 0.046          |
+| Sergey_Lavrov_0002.png             | 1.0            | Jeong_Se-hyun          | 1.0            |
+| Colin_Powell_0110.png              | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Hans_Blix_0004.png                 | 1.0            | Juan_Carlos_Ferrero    | 0.125          |
+| Luiz_Inacio_Lula_da_Silva_0042.png | 1.0            | Donald_Rumsfeld        | 1.0            |
+| Edmund_Stoiber_0007.png            | 1.0            | Hugo_Chavez            | 1.0            |
+| Ariel_Sharon_0054.png              | 1.0            | Joschka_Fischer        | 0.046          |
+| John_Ashcroft_0016.png             | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Jennifer_Capriati_0028.png         | 1.0            | Naomi_Watts            | 0.030          |
+| Kofi_Annan_0015.png                | 1.0            | Hipolito_Mejia         | 1.0            |
+| Vladimir_Putin_0049.png            | 0.333          | Joschka_Fischer        | 1.0            |
+| Arnold_Schwarzenegger_0040.png     | 0.137          | Gordon_Brown           | 0.074          |
+| Gerhard_Schroeder_0080.png         | 1.0            | Charles_Moose          | 1.0            |
+| Tony_Blair_0136.png                | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Carlos_Moya_0012.png               | 1.0            | Tim_Henman             | 1.0            |
+| Wen_Jiabao_0003.png                | 1.0            | Joschka_Fischer        | 0.046          |
+| Jean_Chretien_0016.png             | 1.0            | Recep_Tayyip_Erdogan   | 1.0            |
+| Tony_Blair_0080.png                | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Roh_Moo-hyun_0014.png              | 1.0            | Thaksin_Shinawatra     | 1.0            |
+| Tony_Blair_0002.png                | 1.0            | Vladimir_Putin         | 0.016          |
+| Gil_de_Ferran_0001.png             | 1.0            | Colin_Powell           | 0.1            |
+| Vladimir_Putin_0032.png            | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Julie_Gerberding_0012.png          | 1.0            | Vladimir_Putin         | 0.016          |
+| Tony_Blair_0068.png                | 1.0            | Vladimir_Putin         | 0.016          |
+| Anders_Fogh_Rasmussen_0002.png     | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Colin_Powell_0168.png              | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Pete_Sampras_0010.png              | 0.454          | Kurt_Warner            | 1.0            |
+| Tony_Blair_0108.png                | 1.0            | George_W_Bush          | 1.0            |
+| Ariel_Sharon_0038.png              | 1.0            | Silvio_Berlusconi      | 0.036          |
+| John_Ashcroft_0047.png             | 1.0            | Vladimir_Putin         | 0.016          |
+| Choi_Sung-hong_0002.png            | 1.0            | Vladimir_Putin         | 0.016          |
+| Colin_Powell_0059.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Jennifer_Capriati_0003.png         | 1.0            | Vladimir_Putin         | 0.016          |
+| Nestor_Kirchner_0031.png           | 1.0            | John_Ashcroft          | 1.0            |
+| Hugo_Chavez_0067.png               | 1.0            | Vladimir_Putin         | 0.016          |
+| Gloria_Macapagal_Arroyo_0003.png   | 1.0            | Naomi_Watts            | 0.030          |
+| Tony_Blair_0059.png                | 1.0            | Vladimir_Putin         | 0.016          |
+| Silvio_Berlusconi_0011.png         | 0.036          | Angela_Bassett         | 0.166          |
+| Paul_Bremer_0007.png               | 1.0            | Rob_Marshall           | 1.0            |
+| Andre_Agassi_0036.png              | 1.0            | Carlos_Moya            | 1.0            |
+| Hamid_Karzai_0008.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Donald_Rumsfeld_0118.png           | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Colin_Powell_0061.png              | 1.0            | Donald_Rumsfeld        | 1.0            |
+| John_Negroponte_0020.png           | 1.0            | Vladimir_Putin         | 0.016          |
+| Jeremy_Greenstock_0019.png         | 1.0            | Gil_de_Ferran          | 1.0            |
+| John_Ashcroft_0038.png             | 1.0            | Matthew_Perry          | 1.0            |
+| John_Ashcroft_0004.png             | 1.0            | Joschka_Fischer        | 0.046          |
+| Gerhard_Schroeder_0093.png         | 1.0            | John_Snow              | 1.0            |
+| Colin_Powell_0182.png              | 1.0            | Juan_Carlos_Ferrero    | 0.125          |
+| Cruz_Bustamante_0005.png           | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Colin_Powell_0096.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| William_Macy_0003.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Gerhard_Schroeder_0107.png         | 1.0            | Harrison_Ford          | 1.0            |
+| Jacques_Chirac_0005.png            | 1.0            | Bernard_Law            | 0.083          |
+| Colin_Powell_0080.png              | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Donald_Rumsfeld_0040.png           | 1.0            | Michael_Douglas        | 0.033          |
+| Larry_Thompson_0001.png            | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Rudolph_Giuliani_0008.png          | 1.0            | Steve_Nash             | 1.0            |
+| Howard_Dean_0010.png               | 1.0            | Antonio_Palocci        | 1.0            |
+| Colin_Powell_0188.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Nestor_Kirchner_0036.png           | 1.0            | Ariel_Sharon           | 0.083          |
+| George_W_Bush_0226.png             | 1.0            | Vladimir_Putin         | 0.016          |
+| Jacques_Rogge_0003.png             | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Jiang_Zemin_0006.png               | 1.0            | Debbie_Reynolds        | 1.0            |
+| Sergio_Vieira_De_Mello_0011.png    | 1.0            | Joschka_Fischer        | 0.046          |
+| Jean_Chretien_0045.png             | 1.0            | Gerhard_Schroeder      | 1.0            |
+| Lleyton_Hewitt_0001.png            | 1.0            | Andy_Roddick           | 1.0            |
+| Atal_Bihari_Vajpayee_0003.png      | 1.0            | Mahathir_Mohamad       | 0.258          |
+| George_W_Bush_0288.png             | 1.0            | Tim_Henman             | 1.0            |
+| Julie_Gerberding_0005.png          | 1.0            | Naomi_Watts            | 0.030          |
+| Jean_Charest_0010.png              | 1.0            | Cruz_Bustamante        | 1.0            |
+| Jennifer_Lopez_0005.png            | 0.928          | Christine_Baumgartner  | 0.833          |
+| Kim_Dae-jung_0005.png              | 0.194          | Thaksin_Shinawatra     | 1.0            |
+| Donald_Rumsfeld_0111.png           | 1.0            | Alvaro_Uribe           | 0.058          |
+| Charles_Moose_0001.png             | 1.0            | William_Macy           | 1.0            |
+| Winona_Ryder_0009.png              | 1.0            | Naomi_Watts            | 0.030          |
+| Jack_Straw_0010.png                | 0.5            | Vladimir_Putin         | 0.016          |
+| Jacques_Chirac_0002.png            | 1.0            | Colin_Powell           | 0.111          |
+| Carlos_Menem_0010.png              | 1.0            | Alejandro_Toledo       | 0.071          |
+| Gerhard_Schroeder_0063.png         | 0.033          | Lindsay_Davenport      | 1.0            |
+| Gerhard_Schroeder_0055.png         | 1.0            | Joschka_Fischer        | 0.046          |
+| Jean_Chretien_0004.png             | 1.0            | Jacques_Chirac         | 0.065          |
+| Luiz_Inacio_Lula_da_Silva_0043.png | 1.0            | Vladimir_Putin         | 0.016          |
+| George_W_Bush_0282.png             | 1.0            | Dominique_de_Villepin  | 1.0            |
+| Walter_Mondale_0004.png            | 1.0            | Alejandro_Toledo       | 0.2            |
+| Gerhard_Schroeder_0039.png         | 1.0            | Vladimir_Putin         | 0.016          |
+| John_Kerry_0002.png                | 1.0            | Antonio_Palocci        | 1.0            |
+| Colin_Powell_0196.png              | 1.0            | Donald_Rumsfeld        | 1.0            |
+| Rudolph_Giuliani_0021.png          | 1.0            | Michael_Douglas        | 0.033          |
+| Jacques_Chirac_0038.png            | 1.0            | Sepp_Blatter           | 1.0            |
+| Colin_Farrell_0008.png             | 1.0            | Pete_Sampras           | 0.454          |
+| Michael_Douglas_0002.png           | 0.033          | Robert_Duvall          | 1.0            |
+| Dick_Cheney_0009.png               | 1.0            | Nestor_Kirchner        | 1.0            |
+| Lance_Armstrong_0004.png           | 1.0            | Tim_Henman             | 1.0            |
+| Andre_Agassi_0007.png              | 1.0            | Pete_Sampras           | 0.454          |
+| Joschka_Fischer_0008.png           | 1.0            | Zhu_Rongji             | 1.0            |
+| Saddam_Hussein_0007.png            | 1.0            | Vladimir_Putin         | 0.016          |
+| Jacques_Chirac_0028.png            | 1.0            | Abdullah_Gul           | 0.083          |
+| Mohammed_Al-Douri_0009.png         | 1.0            | Binyamin_Ben-Eliezer   | 1.0            |
+| Colin_Powell_0003.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Tom_Ridge_0005.png                 | 1.0            | Martin_McGuinness      | 1.0            |
+| Jiri_Novak_0002.png                | 1.0            | Michael_Douglas        | 0.033          |
+| Tony_Blair_0081.png                | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Bill_Clinton_0004.png              | 1.0            | Taha_Yassin_Ramadan    | 1.0            |
+| Gerhard_Schroeder_0081.png         | 0.125          | William_Bulger         | 1.0            |
+| John_Ashcroft_0025.png             | 1.0            | Vladimir_Putin         | 0.016          |
+| George_W_Bush_0481.png             | 1.0            | Robert_Duvall          | 1.0            |
+| Kim_Dae-jung_0006.png              | 0.194          | Li_Zhaoxing            | 1.0            |
+| Tony_Blair_0015.png                | 1.0            | Vladimir_Putin         | 0.016          |
+| Ariel_Sharon_0008.png              | 1.0            | Dick_Cheney            | 0.75           |
+| Junichiro_Koizumi_0021.png         | 1.0            | Juan_Carlos_Ferrero    | 0.125          |
+| Li_Zhaoxing_0002.png               | 1.0            | Colin_Farrell          | 1.0            |
+| Saddam_Hussein_0015.png            | 1.0            | Jesse_Jackson          | 1.0            |
+| Clara_Harris_0003.png              | 1.0            | Naomi_Watts            | 0.030          |
+| Hans_Blix_0010.png                 | 1.0            | Michael_Douglas        | 0.033          |
+| Andre_Agassi_0029.png              | 1.0            | Pedro_Almodovar        | 1.0            |
+| Tom_Daschle_0025.png               | 1.0            | Michael_Bloomberg      | 1.0            |
+| Serena_Williams_0003.png           | 1.0            | Larry_Thompson         | 1.0            |
+| George_W_Bush_0422.png             | 1.0            | Gil_de_Ferran          | 1.0            |
+| George_W_Bush_0126.png             | 1.0            | Richard_Gere           | 1.0            |
+| Gerhard_Schroeder_0047.png         | 0.033          | Ana_Palacio            | 1.0            |
+| Jennifer_Lopez_0001.png            | 0.928          | Naomi_Watts            | 0.030          |
+| Luiz_Inacio_Lula_da_Silva_0031.png | 1.0            | Wen_Jiabao             | 1.0            |
+| Winona_Ryder_0012.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Rebekah_Chantay_Revels_0003.png    | 1.0            | Naomi_Watts            | 0.030          |
+| Tung_Chee-hwa_0002.png             | 1.0            | Kim_Dae-jung           | 0.194          |
+| Ariel_Sharon_0007.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Donald_Rumsfeld_0114.png           | 1.0            | Arnoldo_Aleman         | 1.0            |
+| Lindsay_Davenport_0001.png         | 1.0            | Tony_Blair             | 1.0            |
+| Hans_Blix_0014.png                 | 1.0            | Jean_Charest           | 1.0            |
+| Andre_Agassi_0023.png              | 1.0            | Gordon_Brown           | 0.074          |
+| Debbie_Reynolds_0003.png           | 1.0            | Laura_Bush             | 1.0            |
+| Silvio_Berlusconi_0018.png         | 0.036          | Aleksander_Kwasniewski | 0.166          |
+| Jackie_Chan_0011.png               | 1.0            | Gordon_Brown           | 0.074          |
+| John_Negroponte_0009.png           | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Gloria_Macapagal_Arroyo_0040.png   | 1.0            | Hitomi_Soga            | 1.0            |
+| Muhammad_Ali_0010.png              | 1.0            | George_W_Bush          | 1.0            |
+| Megawati_Sukarnoputri_0031.png     | 1.0            | Li_Peng                | 0.333          |
+| Hans_Blix_0024.png                 | 1.0            | Juan_Carlos_Ferrero    | 0.125          |
+| Hugo_Chavez_0063.png               | 1.0            | Vladimir_Putin         | 0.016          |
+| George_W_Bush_0361.png             | 1.0            | Michael_Douglas        | 0.033          |
+| Pedro_Almodovar_0002.png           | 1.0            | Vladimir_Putin         | 0.016          |
+| Pierce_Brosnan_0013.png            | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Jacques_Chirac_0013.png            | 0.065          | Gerhard_Schroeder      | 0.033          |
+| Joan_Laporta_0004.png              | 1.0            | Michael_Douglas        | 0.033          |
+| George_W_Bush_0086.png             | 1.0            | Mark_Hurlbert          | 1.0            |
+| Jean_Chretien_0038.png             | 1.0            | Joschka_Fischer        | 0.046          |
+| Mark_Wahlberg_0002.png             | 1.0            | Vladimir_Putin         | 0.016          |
+| John_Snow_0017.png                 | 1.0            | Vladimir_Putin         | 0.016          |
+| Paradorn_Srichaphan_0006.png       | 1.0            | Lleyton_Hewitt         | 1.0            |
+| Heizo_Takenaka_0006.png            | 1.0            | Kim_Dae-jung           | 0.194          |
+| Pedro_Almodovar_0006.png           | 1.0            | Gordon_Brown           | 0.074          |
+| John_Ashcroft_0036.png             | 1.0            | Hans_Blix              | 1.0            |
+| Juan_Carlos_Ferrero_0010.png       | 1.0            | Vladimir_Putin         | 0.016          |
+| Donald_Rumsfeld_0013.png           | 1.0            | David_Wells            | 1.0            |
+| Donald_Rumsfeld_0061.png           | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Tony_Blair_0120.png                | 1.0            | Jon_Gruden             | 1.0            |
+| Hamid_Karzai_0007.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Colin_Powell_0198.png              | 1.0            | Juan_Carlos_Ferrero    | 0.125          |
+| David_Beckham_0025.png             | 0.393          | Vladimir_Putin         | 0.016          |
+| Kofi_Annan_0021.png                | 1.0            | Zhu_Rongji             | 0.35           |
+| Mike_Tyson_0002.png                | 1.0            | Denzel_Washington      | 1.0            |
+| Ariel_Sharon_0021.png              | 1.0            | Mahathir_Mohamad       | 0.258          |
+| George_W_Bush_0488.png             | 1.0            | Michael_Douglas        | 0.033          |
+| George_W_Bush_0294.png             | 1.0            | Jim_Tressel            | 1.0            |
+| George_Robertson_0009.png          | 1.0            | Dennis_Kucinich        | 1.0            |
+| Arnold_Schwarzenegger_0018.png     | 0.137          | Vladimir_Putin         | 0.016          |
+| Colin_Powell_0229.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Tom_Ridge_0010.png                 | 1.0            | Colin_Powell           | 1.0            |
+| Gerhard_Schroeder_0005.png         | 1.0            | Vladimir_Putin         | 0.016          |
+| Choi_Sung-hong_0003.png            | 1.0            | Colin_Powell           | 1.0            |
+| Michael_Bloomberg_0014.png         | 1.0            | George_W_Bush          | 1.0            |
+| Nicanor_Duarte_Frutos_0009.png     | 1.0            | Angela_Merkel          | 0.057          |
+| Mahmoud_Abbas_0004.png             | 1.0            | Raoul_Ruiz             | 1.0            |
+| Ricardo_Lagos_0002.png             | 1.0            | Vladimir_Putin         | 0.016          |
+| Joan_Laporta_0007.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Andy_Roddick_0003.png              | 1.0            | Fernando_Gonzalez      | 0.333          |
+| Gordon_Brown_0002.png              | 0.074          | Roger_Federer          | 1.0            |
+| Luiz_Inacio_Lula_da_Silva_0024.png | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Carlos_Moya_0013.png               | 1.0            | Alvaro_Uribe           | 0.058          |
+| David_Beckham_0031.png             | 0.166          | Vladimir_Putin         | 0.016          |
+| Megawati_Sukarnoputri_0029.png     | 1.0            | Li_Zhaoxing            | 1.0            |
+| John_Ashcroft_0001.png             | 1.0            | Donald_Rumsfeld        | 1.0            |
+| Jiri_Novak_0010.png                | 1.0            | Marc_Grossman          | 1.0            |
+| George_W_Bush_0459.png             | 1.0            | Trent_Lott             | 1.0            |
+| George_W_Bush_0400.png             | 1.0            | Mark_Hurlbert          | 1.0            |
+| Tony_Blair_0121.png                | 1.0            | Silvio_Berlusconi      | 0.036          |
+| John_Ashcroft_0050.png             | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Tang_Jiaxuan_0004.png              | 1.0            | Naomi_Watts            | 0.030          |
+| Gerhard_Schroeder_0066.png         | 1.0            | Joschka_Fischer        | 0.046          |
+| Silvio_Berlusconi_0001.png         | 0.036          | Tom_Craddick           | 1.0            |
+| Jean_Chretien_0033.png             | 1.0            | Jacques_Chirac         | 0.065          |
+| George_W_Bush_0215.png             | 1.0            | Tim_Henman             | 1.0            |
+| Carlos_Menem_0002.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Colin_Powell_0076.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Jeremy_Greenstock_0009.png         | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Jean_Chretien_0001.png             | 1.0            | Yasser_Arafat          | 1.0            |
+| Colin_Powell_0034.png              | 1.0            | Tony_Blair             | 1.0            |
+| Salma_Hayek_0004.png               | 1.0            | Princess_Caroline      | 1.0            |
+| Hugo_Chavez_0068.png               | 1.0            | Vladimir_Putin         | 0.016          |
+| George_Robertson_0015.png          | 1.0            | Angela_Merkel          | 0.057          |
+| Saddam_Hussein_0009.png            | 1.0            | Vladimir_Putin         | 0.016          |
+| Tung_Chee-hwa_0005.png             | 1.0            | Jackie_Chan            | 0.056          |
+| Lance_Armstrong_0016.png           | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Jennifer_Aniston_0010.png          | 0.846          | Holly_Hunter           | 0.5            |
+| Tung_Chee-hwa_0007.png             | 1.0            | Chanda_Rubin           | 1.0            |
+| Silvio_Berlusconi_0024.png         | 0.036          | Angela_Bassett         | 0.166          |
+| Tiger_Woods_0012.png               | 1.0            | Yu_Shyi-kun            | 1.0            |
+| Mahmoud_Abbas_0013.png             | 1.0            | Joschka_Fischer        | 0.046          |
+| Serena_Williams_0025.png           | 1.0            | Charles_Taylor         | 1.0            |
+| Silvio_Berlusconi_0005.png         | 1.0            | Charlton_Heston        | 1.0            |
+| Carlos_Vives_0002.png              | 1.0            | Trent_Lott             | 1.0            |
+| Bill_Clinton_0016.png              | 1.0            | Joschka_Fischer        | 0.046          |
+| James_Blake_0012.png               | 1.0            | Kurt_Warner            | 1.0            |
+| Larry_Thompson_0004.png            | 1.0            | Tiger_Woods            | 1.0            |
+| Ariel_Sharon_0032.png              | 1.0            | Jacques_Chirac         | 0.065          |
+| Denzel_Washington_0005.png         | 1.0            | Jackie_Chan            | 0.056          |
+| Jacques_Chirac_0045.png            | 1.0            | Anders_Fogh_Rasmussen  | 1.0            |
+| Edmund_Stoiber_0011.png            | 1.0            | George_W_Bush          | 1.0            |
+| Rudolph_Giuliani_0016.png          | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Alvaro_Uribe_0009.png              | 0.058          | Michael_Douglas        | 0.033          |
+| Mahmoud_Abbas_0025.png             | 1.0            | Alejandro_Toledo       | 1.0            |
+| Arnold_Schwarzenegger_0028.png     | 1.0            | Vladimir_Putin         | 0.016          |
+| Rob_Marshall_0003.png              | 1.0            | Harrison_Ford          | 1.0            |
+| Vicente_Fox_0003.png               | 1.0            | Sepp_Blatter           | 1.0            |
+| Laura_Bush_0017.png                | 1.0            | Jiang_Zemin            | 1.0            |
+| Jeremy_Greenstock_0011.png         | 1.0            | Sergei_Ivanov          | 1.0            |
+| Gerhard_Schroeder_0077.png         | 1.0            | Trent_Lott             | 1.0            |
+| John_Negroponte_0012.png           | 1.0            | Vladimir_Putin         | 0.016          |
+| Abdullah_Gul_0006.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Abdullah_Gul_0018.png              | 1.0            | Vladimir_Putin         | 0.016          |
+| Gloria_Macapagal_Arroyo_0036.png   | 1.0            | Megawati_Sukarnoputri  | 1.0            |
+| Elton_John_0002.png                | 0.2            | Vladimir_Putin         | 0.016          |
+| Tiger_Woods_0022.png               | 1.0            | Gordon_Brown           | 0.074          |
+| Tony_Bennett_0004.png              | 1.0            | Nestor_Kirchner        | 1.0            |
+| Tim_Henman_0008.png                | 1.0            | Vladimir_Putin         | 0.016          |
+| Rick_Carlisle_0001.png             | 1.0            | Marc_Grossman          | 1.0            |
+| Jacques_Chirac_0015.png            | 0.065          | Michael_Douglas        | 0.033          |
+| Junichiro_Koizumi_0035.png         | 0.866          | Colin_Farrell          | 1.0            |
+| Tony_Blair_0035.png                | 1.0            | Gerhard_Schroeder      | 0.033          |
+| Lleyton_Hewitt_0016.png            | 1.0            | Rick_Pitino            | 1.0            |
+| Donald_Rumsfeld_0028.png           | 1.0            | John_Howard            | 1.0            |
+| Hans_Blix_0033.png                 | 1.0            | Martin_McGuinness      | 1.0            |
+| Junichiro_Koizumi_0048.png         | 1.0            | Lee_Hoi-chang          | 1.0            |
+| Colin_Powell_0050.png              | 1.0            | Silvio_Berlusconi      | 0.036          |
+| John_Ashcroft_0021.png             | 1.0            | Joschka_Fischer        | 0.046          |
+| Jennifer_Capriati_0034.png         | 1.0            | Naomi_Watts            | 0.030          |
+| Taha_Yassin_Ramadan_0004.png       | 1.0            | Mahathir_Mohamad       | 0.258          |
+| Arnold_Schwarzenegger_0015.png     | 1.0            | Michael_Douglas        | 0.033          |
+| Tommy_Franks_0005.png              | 1.0            | Arnold_Schwarzenegger  | 0.090          |
+| Catherine_Zeta-Jones_0004.png      | 0.25           | Halle_Berry            | 1.0            |
+| Donald_Rumsfeld_0096.png           | 1.0            | Michael_Bloomberg      | 1.0            |
+| Tim_Duncan_0002.png                | 1.0            | Yu_Shyi-kun            | 1.0            |
+| Tang_Jiaxuan_0005.png              | 1.0            | Kim_Dae-jung           | 0.194          |
+| Igor_Ivanov_0012.png               | 1.0            | Vladimir_Putin         | 0.016          |
+| George_W_Bush_0004.png             | 1.0            | Michael_Douglas        | 0.033          |
+| George_W_Bush_0363.png             | 1.0            | Michael_Douglas        | 0.033          |
+| Gerhard_Schroeder_0098.png         | 1.0            | David_Wells            | 1.0            |
+| Colin_Powell_0031.png              | 1.0            | Tony_Blair             | 1.0            |
+| Tim_Henman_0012.png                | 1.0            | George_W_Bush          | 1.0            |
+| Tony_Blair_0113.png                | 1.0            | Colin_Powell           | 0.111          |
+| Vicente_Fox_0007.png               | 1.0            | Silvio_Berlusconi      | 0.036          |
+| Rafael_Ramirez_0001.png            | 1.0            | Bob_Graham             | 1.0            |
+| Bill_Frist_0001.png                | 1.0            | Colin_Powell           | 0.1            |
+| Taha_Yassin_Ramadan_0002.png       | 1.0            | Silvio_Berlusconi      | 0.036          |
++------------------------------------+----------------+------------------------+----------------+
+
+Lost:
+George_W_Bush_0395.png
+Jean_Chretien_0002.png
+Bruce_Springsteen_0004.png
+Jennifer_Capriati_0011.png
+Nestor_Kirchner_0013.png
+Oprah_Winfrey_0003.png
+Lleyton_Hewitt_0027.png
+Donald_Rumsfeld_0021.png
+Donald_Rumsfeld_0042.png
+John_Negroponte_0026.png
+Guillermo_Coria_0026.png
+Juan_Carlos_Ferrero_0018.png
+Silvio_Berlusconi_0013.png
+Lindsay_Davenport_0008.png
+Charles_Moose_0012.png
+Tommy_Haas_0004.png
+Lance_Armstrong_0007.png
+Vladimir_Putin_0023.png
+Kofi_Annan_0016.png
+Jack_Straw_0022.png
+Clare_Short_0001.png
+Antonio_Palocci_0007.png
+Pete_Sampras_0015.png
+Tom_Hanks_0003.png
+Tony_Blair_0143.png
+Serena_Williams_0047.png
+Mahmoud_Abbas_0011.png
+Jennifer_Capriati_0018.png
+Jennifer_Lopez_0006.png
+Elton_John_0004.png
+George_W_Bush_0351.png
+George_W_Bush_0292.png
+Allyson_Felix_0005.png
+Bill_Graham_0001.png
+Laura_Bush_0022.png
+George_W_Bush_0273.png
+Anna_Kournikova_0008.png
+Jean-Pierre_Raffarin_0007.png
+Robert_Duvall_0001.png
+Felipe_Perez_Roque_0003.png
+Tiger_Woods_0018.png
+Zoran_Djindjic_0004.png
+Queen_Elizabeth_II_0012.png
+Kathleen_Kennedy_Townsend_0002.png
+Harry_Schmidt_0001.png
+Tony_Blair_0017.png
+Jennifer_Aniston_0014.png
+Donald_Rumsfeld_0015.png
+Serena_Williams_0005.png
+George_W_Bush_0394.png
+Bill_Frist_0006.png
+Gordon_Brown_0005.png
+Luiz_Inacio_Lula_da_Silva_0047.png
+Lleyton_Hewitt_0039.png
+Nick_Nolte_0001.png
+Joseph_Biden_0001.png
+Michael_Chang_0008.png
+Guillermo_Coria_0020.png
+William_Donaldson_0007.png
+George_W_Bush_0524.png
+Tom_Cruise_0003.png
+Jacques_Chirac_0048.png
+Todd_Haynes_0001.png
+Tang_Jiaxuan_0010.png
+Thomas_OBrien_0004.png
+Vladimir_Putin_0037.png
+Jean_Charest_0005.png
+Guillermo_Coria_0007.png
+Lucio_Gutierrez_0013.png
+Lleyton_Hewitt_0014.png
+Jennifer_Aniston_0008.png
+Winona_Ryder_0024.png
+Zoran_Djindjic_0003.png
+Tony_Blair_0142.png
+Thabo_Mbeki_0004.png
+Michael_Bloomberg_0007.png
+Giuseppe_Gibilisco_0001.png
+Nestor_Kirchner_0037.png
+Michael_Schumacher_0004.png
+Mahmoud_Abbas_0007.png
+Christopher_Reeve_0003.png
+George_W_Bush_0297.png
+George_W_Bush_0267.png
+Nancy_Pelosi_0007.png
+Howard_Dean_0005.png
+Nan_Wang_0003.png
+Rob_Marshall_0005.png
+Serena_Williams_0043.png
+David_Anderson_0003.png
+Tom_Ridge_0029.png
+Paul_Burrell_0001.png
+Gregg_Popovich_0005.png
+Winona_Ryder_0014.png
+Larry_Thompson_0003.png
+Jose_Manuel_Durao_Barroso_0006.png
+Guillermo_Coria_0022.png
+Eduardo_Duhalde_0007.png
+Mike_Krzyzewski_0006.png
+Albert_Costa_0004.png
+Kim_Dae-jung_0002.png
+Zinedine_Zidane_0003.png
+Jennifer_Capriati_0008.png
+Michael_Jordan_0002.png
+Roman_Polanski_0001.png
+Gerhard_Schroeder_0052.png
+Ben_Howland_0002.png
+Alejandro_Toledo_0020.png
+George_W_Bush_0243.png
+Gwyneth_Paltrow_0003.png
+Jiang_Zemin_0019.png
+George_W_Bush_0334.png
+Marc_Grossman_0003.png
+Xavier_Malisse_0003.png
+Atal_Bihari_Vajpayee_0010.png
+Jim_Furyk_0004.png
+Jimmy_Carter_0007.png
+Boris_Becker_0003.png
+Gerhard_Schroeder_0086.png
+George_W_Bush_0014.png
+Guillermo_Canas_0003.png
+Sonia_Gandhi_0004.png
+Hugo_Chavez_0003.png
+Junichiro_Koizumi_0028.png
+
+Found:
+Jean_Chretien_0036.png
+Colin_Powell_0071.png
+Wayne_Gretzky_0001.png
+Bill_Clinton_0008.png
+Renee_Zellweger_0017.png
+Colin_Farrell_0001.png
+John_Ashcroft_0042.png
+Hugo_Chavez_0048.png
+Nicole_Kidman_0008.png
+Raoul_Ruiz_0002.png
+Andy_Roddick_0004.png
+Patricia_Clarkson_0002.png
+Gerhard_Schroeder_0033.png
+Donald_Rumsfeld_0099.png
+Andre_Agassi_0028.png
+Amer_al-Saadi_0002.png
+Rick_Perry_0006.png
+Michael_Jackson_0004.png
+Yasar_Yakis_0002.png
+Naomi_Watts_0005.png
+Luiz_Inacio_Lula_da_Silva_0029.png
+Martin_McGuinness_0002.png
+Jim_Furyk_0002.png
+Ian_Thorpe_0004.png
+Steve_Nash_0002.png
+Michael_Jackson_0006.png
+Kofi_Annan_0023.png
+Laura_Bush_0026.png
+Nestor_Kirchner_0028.png
+Kim_Clijsters_0008.png
+Ana_Palacio_0001.png
+Princess_Caroline_0005.png
+Woody_Allen_0004.png
+Lleyton_Hewitt_0003.png
+William_Ford_Jr_0003.png
+Ariel_Sharon_0067.png
+Richard_Gephardt_0002.png
+Tung_Chee-hwa_0009.png
+Gray_Davis_0022.png
+Lindsay_Davenport_0005.png
+Jim_Tressel_0002.png
+Fidel_Castro_0004.png
+Recep_Tayyip_Erdogan_0029.png
+Gwyneth_Paltrow_0005.png
+Gloria_Macapagal_Arroyo_0010.png
+Benazir_Bhutto_0001.png
+Martha_Stewart_0002.png
+Martha_Burk_0001.png
+Halle_Berry_0003.png
+Junichiro_Koizumi_0058.png
+Muhammad_Ali_0009.png
+George_Robertson_0019.png
+Christina_Aguilera_0002.png
+Gloria_Macapagal_Arroyo_0022.png
+Tiger_Woods_0007.png
+Pete_Sampras_0014.png
+Jean_Chretien_0005.png
+Gerhard_Schroeder_0023.png
+George_W_Bush_0210.png
+Luiz_Inacio_Lula_da_Silva_0019.png
+Rainer_Schuettler_0004.png
+Vanessa_Incontrada_0003.png
+Donald_Rumsfeld_0084.png
+Eduardo_Duhalde_0012.png
+George_W_Bush_0444.png
+Carrie-Anne_Moss_0002.png
+Bob_Hope_0007.png
+Fidel_Castro_0001.png
+Ian_Thorpe_0001.png
+Yao_Ming_0008.png
+Tiger_Woods_0002.png
+George_W_Bush_0167.png
+Wayne_Ferreira_0003.png
+Silvio_Berlusconi_0008.png
+Nelson_Mandela_0002.png
+Cruz_Bustamante_0001.png
+George_W_Bush_0433.png
+Lucio_Gutierrez_0010.png
+John_Ashcroft_0043.png
+Luis_Horna_0003.png
+William_Donaldson_0003.png
+Wayne_Ferreira_0001.png
+Jacques_Chirac_0025.png
+John_Bolton_0014.png
+George_W_Bush_0435.png
+James_McGreevey_0001.png
+Al_Sharpton_0005.png
+Romano_Prodi_0007.png
+Junichiro_Koizumi_0024.png
+Angela_Merkel_0004.png
+Jean_Chretien_0011.png
+Salma_Hayek_0009.png
+Patty_Schnyder_0002.png
+Enrique_Bolanos_0001.png
+Jennifer_Capriati_0023.png
+Angelina_Jolie_0011.png
+William_Donaldson_0006.png
+Brad_Garrett_0002.png
+Cameron_Diaz_0006.png
+Vladimir_Putin_0046.png
+Lleyton_Hewitt_0022.png
+Rachel_Hunter_0002.png
+Jack_Straw_0019.png
+Monica_Seles_0006.png
+Tom_Crean_0004.png
+Calista_Flockhart_0002.png
+Tony_Blair_0026.png
+George_W_Bush_0461.png
+George_W_Bush_0329.png
+Bill_Frist_0009.png
+Luiz_Inacio_Lula_da_Silva_0034.png
+Bill_Clinton_0009.png
+John_Ashcroft_0020.png
+Tom_Cruise_0002.png
+Dick_Cheney_0005.png
+John_Allen_Muhammad_0006.png
+Robert_Duvall_0005.png
+Gloria_Macapagal_Arroyo_0015.png
+George_W_Bush_0525.png
+Xavier_Malisse_0005.png
+George_W_Bush_0285.png
+Anna_Kournikova_0002.png
+Jonathan_Edwards_0004.png
+Erika_Harold_0005.png
+Jake_Gyllenhaal_0003.png
+Ann_Veneman_0004.png
+
+Both correct:
++--------------------------------------+----------------+----------------+----------+
+| FILE                                 | NEW CONFIDENCE | OLD CONFIDENCE | IMPROVED |
++--------------------------------------+----------------+----------------+----------+
+| Roh_Moo-hyun_0004.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0194.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0012.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0231.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0450.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0098.png             | 1.0            | 1.0            | False    |
+| James_Blake_0005.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0070.png               | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0008.png              | 0.016          | 0.016          | False    |
+| Amelie_Mauresmo_0009.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0427.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0083.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0009.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0032.png                | 1.0            | 1.0            | False    |
+| Amelia_Vega_0005.png                 | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0045.png              | 0.016          | 0.016          | False    |
+| George_W_Bush_0482.png               | 1.0            | 1.0            | False    |
+| Lucio_Gutierrez_0005.png             | 1.0            | 1.0            | False    |
+| Muhammad_Ali_0006.png                | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0015.png           | 0.036          | 0.036          | False    |
+| Colin_Powell_0058.png                | 1.0            | 1.0            | False    |
+| Serena_Williams_0034.png             | 1.0            | 1.0            | False    |
+| Jacques_Chirac_0009.png              | 1.0            | 1.0            | False    |
+| Tim_Henman_0009.png                  | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0046.png   | 1.0            | 1.0            | False    |
+| Naomi_Watts_0018.png                 | 0.030          | 0.030          | False    |
+| Gerhard_Schroeder_0087.png           | 0.033          | 0.033          | False    |
+| Junichiro_Koizumi_0056.png           | 1.0            | 1.0            | False    |
+| Paradorn_Srichaphan_0008.png         | 1.0            | 1.0            | False    |
+| George_W_Bush_0396.png               | 1.0            | 1.0            | False    |
+| John_Negroponte_0029.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0167.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0398.png               | 1.0            | 1.0            | False    |
+| Jon_Gruden_0007.png                  | 1.0            | 1.0            | False    |
+| Tony_Blair_0009.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0148.png               | 1.0            | 1.0            | False    |
+| Juan_Carlos_Ferrero_0004.png         | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0014.png              | 0.016          | 0.016          | False    |
+| Winona_Ryder_0020.png                | 1.0            | 1.0            | False    |
+| Serena_Williams_0007.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0356.png               | 1.0            | 1.0            | False    |
+| George_Robertson_0013.png            | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0016.png              | 0.016          | 0.016          | False    |
+| Jean_Chretien_0029.png               | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0033.png           | 1.0            | 1.0            | False    |
+| Nicanor_Duarte_Frutos_0008.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0153.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0032.png                 | 1.0            | 1.0            | False    |
+| Edmund_Stoiber_0002.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0137.png               | 1.0            | 1.0            | False    |
+| Rudolph_Giuliani_0009.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0426.png               | 1.0            | 1.0            | False    |
+| Charlton_Heston_0001.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0323.png               | 1.0            | 1.0            | False    |
+| Charles_Moose_0002.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0269.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0199.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0072.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0043.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0032.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0516.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0203.png               | 1.0            | 1.0            | False    |
+| Lee_Hoi-chang_0001.png               | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0006.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0320.png               | 1.0            | 1.0            | False    |
+| Naomi_Watts_0008.png                 | 0.030          | 0.030          | False    |
+| Igor_Ivanov_0009.png                 | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0091.png             | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0003.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0207.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0258.png               | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0033.png           | 1.0            | 1.0            | False    |
+| Hamid_Karzai_0005.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0030.png                | 1.0            | 1.0            | False    |
+| Tom_Ridge_0028.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0295.png               | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0011.png            | 0.071          | 0.071          | False    |
+| Tom_Ridge_0011.png                   | 1.0            | 1.0            | False    |
+| Colin_Powell_0047.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0071.png                | 1.0            | 1.0            | False    |
+| Condoleezza_Rice_0011.png            | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0003.png       | 1.0            | 1.0            | False    |
+| Roger_Moore_0002.png                 | 1.0            | 1.0            | False    |
+| Andre_Agassi_0006.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0010.png           | 1.0            | 1.0            | False    |
+| Igor_Ivanov_0016.png                 | 1.0            | 1.0            | False    |
+| Kofi_Annan_0030.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0097.png           | 1.0            | 1.0            | False    |
+| William_Macy_0001.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0028.png                | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0043.png              | 0.016          | 0.016          | False    |
+| Tang_Jiaxuan_0008.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0414.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0034.png               | 1.0            | 1.0            | False    |
+| Laura_Bush_0006.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0119.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0053.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0056.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0418.png               | 1.0            | 1.0            | False    |
+| Michael_Douglas_0005.png             | 0.033          | 0.033          | False    |
+| Jennifer_Capriati_0009.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0244.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0008.png           | 1.0            | 1.0            | False    |
+| Andre_Agassi_0019.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0474.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0246.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0256.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0083.png                  | 1.0            | 1.0            | False    |
+| Hu_Jintao_0006.png                   | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0011.png              | 0.016          | 0.016          | False    |
+| Winona_Ryder_0005.png                | 1.0            | 1.0            | False    |
+| Francisco_Flores_0004.png            | 1.0            | 1.0            | False    |
+| Hans_Blix_0020.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0464.png               | 1.0            | 1.0            | False    |
+| Yashwant_Sinha_0002.png              | 1.0            | 1.0            | False    |
+| Jiri_Novak_0003.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0195.png               | 1.0            | 1.0            | False    |
+| Ali_Naimi_0004.png                   | 0.25           | 0.25           | False    |
+| Hu_Jintao_0013.png                   | 1.0            | 1.0            | False    |
+| Zhu_Rongji_0007.png                  | 0.35           | 1.0            | False    |
+| Colin_Powell_0036.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0476.png               | 1.0            | 1.0            | False    |
+| Gordon_Brown_0006.png                | 0.074          | 0.074          | False    |
+| Colin_Powell_0214.png                | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0041.png              | 1.0            | 0.016          | True     |
+| Paul_Bremer_0015.png                 | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0037.png                 | 1.0            | 1.0            | False    |
+| Serena_Williams_0039.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0485.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0032.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0043.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0089.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0025.png               | 1.0            | 1.0            | False    |
+| Choi_Sung-hong_0004.png              | 1.0            | 1.0            | False    |
+| Yashwant_Sinha_0007.png              | 1.0            | 1.0            | False    |
+| Roger_Federer_0001.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0010.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0054.png                 | 1.0            | 1.0            | False    |
+| Tom_Ridge_0024.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0232.png               | 1.0            | 1.0            | False    |
+| Kofi_Annan_0008.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0002.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0429.png               | 1.0            | 1.0            | False    |
+| Igor_Ivanov_0011.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0301.png               | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0025.png   | 1.0            | 1.0            | False    |
+| David_Beckham_0019.png               | 0.393          | 0.393          | False    |
+| Colin_Powell_0223.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0050.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0005.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0303.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0335.png               | 1.0            | 1.0            | False    |
+| Jeb_Bush_0009.png                    | 1.0            | 1.0            | False    |
+| Colin_Powell_0180.png                | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0004.png       | 1.0            | 1.0            | False    |
+| Colin_Powell_0190.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0099.png           | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0065.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0118.png               | 1.0            | 1.0            | False    |
+| John_Ashcroft_0031.png               | 1.0            | 1.0            | False    |
+| Carlos_Moya_0016.png                 | 1.0            | 1.0            | False    |
+| Jacques_Chirac_0042.png              | 1.0            | 1.0            | False    |
+| Serena_Williams_0016.png             | 1.0            | 1.0            | False    |
+| Zhu_Rongji_0004.png                  | 0.35           | 0.35           | False    |
+| Luiz_Inacio_Lula_da_Silva_0001.png   | 1.0            | 1.0            | False    |
+| Meryl_Streep_0010.png                | 1.0            | 1.0            | False    |
+| Jennifer_Lopez_0012.png              | 0.928          | 0.928          | False    |
+| Gordon_Brown_0004.png                | 0.074          | 0.074          | False    |
+| Colin_Powell_0039.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0081.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0014.png                   | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0084.png           | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0031.png           | 1.0            | 1.0            | False    |
+| Tiger_Woods_0013.png                 | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0003.png   | 1.0            | 1.0            | False    |
+| George_Robertson_0016.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0240.png               | 1.0            | 1.0            | False    |
+| Juan_Carlos_Ferrero_0006.png         | 1.0            | 1.0            | False    |
+| George_W_Bush_0460.png               | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0009.png                | 1.0            | 1.0            | False    |
+| Yoriko_Kawaguchi_0012.png            | 1.0            | 1.0            | False    |
+| Li_Zhaoxing_0008.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0355.png               | 1.0            | 1.0            | False    |
+| Kim_Clijsters_0012.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0085.png                  | 1.0            | 1.0            | False    |
+| Nicanor_Duarte_Frutos_0005.png       | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0058.png             | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0018.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0233.png                | 1.0            | 1.0            | False    |
+| Roger_Federer_0002.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0075.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0050.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0105.png               | 1.0            | 1.0            | False    |
+| Heizo_Takenaka_0009.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0197.png               | 1.0            | 1.0            | False    |
+| Serena_Williams_0035.png             | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0018.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0098.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0044.png           | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0061.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0038.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0065.png             | 1.0            | 1.0            | False    |
+| Jean_Chretien_0040.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0078.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0124.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0015.png                 | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0055.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0043.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0171.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0067.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0136.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0126.png                | 1.0            | 1.0            | False    |
+| Mahmoud_Abbas_0008.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0293.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0154.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0002.png           | 1.0            | 1.0            | False    |
+| Tony_Blair_0094.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0291.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0094.png                | 1.0            | 1.0            | False    |
+| Lindsay_Davenport_0004.png           | 0.5            | 0.5            | False    |
+| Vladimir_Putin_0044.png              | 0.333          | 0.333          | False    |
+| Jackie_Chan_0008.png                 | 0.056          | 0.056          | False    |
+| George_W_Bush_0208.png               | 1.0            | 1.0            | False    |
+| Kofi_Annan_0004.png                  | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0022.png                | 1.0            | 1.0            | False    |
+| Harrison_Ford_0006.png               | 1.0            | 1.0            | False    |
+| Bill_Simon_0015.png                  | 1.0            | 1.0            | False    |
+| Vicente_Fox_0019.png                 | 1.0            | 1.0            | False    |
+| Tony_Blair_0016.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0213.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0007.png                  | 1.0            | 1.0            | False    |
+| Tony_Blair_0102.png                  | 1.0            | 1.0            | False    |
+| Kurt_Warner_0002.png                 | 1.0            | 1.0            | False    |
+| Gunter_Pleuger_0007.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0522.png               | 1.0            | 1.0            | False    |
+| Ricardo_Lagos_0023.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0250.png               | 1.0            | 1.0            | False    |
+| Charles_Moose_0008.png               | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0001.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0006.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0031.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0021.png                | 1.0            | 1.0            | False    |
+| Amelie_Mauresmo_0016.png             | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0062.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0487.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0162.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0521.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0015.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0023.png                | 1.0            | 1.0            | False    |
+| Javier_Solana_0009.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0114.png                | 1.0            | 1.0            | False    |
+| Ana_Palacio_0005.png                 | 0.333          | 0.333          | False    |
+| Naomi_Watts_0017.png                 | 0.030          | 0.030          | False    |
+| Serena_Williams_0012.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0141.png                | 1.0            | 1.0            | False    |
+| Jean_Chretien_0003.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0035.png             | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0016.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0370.png               | 1.0            | 1.0            | False    |
+| Jennifer_Lopez_0014.png              | 0.928          | 0.928          | False    |
+| George_W_Bush_0057.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0032.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0031.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0011.png             | 1.0            | 1.0            | False    |
+| Serena_Williams_0018.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0261.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0175.png               | 1.0            | 1.0            | False    |
+| Jean_Charest_0006.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0129.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0101.png               | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0029.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0066.png                 | 1.0            | 1.0            | False    |
+| Tony_Blair_0104.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0009.png             | 1.0            | 1.0            | False    |
+| Laura_Bush_0009.png                  | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0007.png   | 1.0            | 1.0            | False    |
+| Tony_Blair_0024.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0221.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0003.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0445.png               | 1.0            | 1.0            | False    |
+| Kofi_Annan_0005.png                  | 1.0            | 1.0            | False    |
+| Tony_Blair_0041.png                  | 1.0            | 1.0            | False    |
+| Luis_Gonzalez_Macchi_0001.png        | 1.0            | 1.0            | False    |
+| George_W_Bush_0247.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0126.png                  | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0004.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0372.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0089.png             | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0014.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0284.png               | 1.0            | 1.0            | False    |
+| Jennifer_Aniston_0015.png            | 0.846          | 0.846          | False    |
+| Colin_Powell_0102.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0178.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0053.png                 | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0039.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0025.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0084.png                  | 1.0            | 1.0            | False    |
+| Pete_Sampras_0007.png                | 1.0            | 1.0            | False    |
+| Yoriko_Kawaguchi_0002.png            | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0013.png   | 1.0            | 1.0            | False    |
+| George_W_Bush_0364.png               | 1.0            | 1.0            | False    |
+| Heizo_Takenaka_0003.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0380.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0033.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0217.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0390.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0027.png                   | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0064.png             | 1.0            | 1.0            | False    |
+| Pedro_Almodovar_0007.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0162.png                | 1.0            | 1.0            | False    |
+| Tommy_Haas_0002.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0073.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0468.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0402.png               | 1.0            | 1.0            | False    |
+| Andre_Agassi_0015.png                | 1.0            | 1.0            | False    |
+| Amer_al-Saadi_0001.png               | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0023.png     | 1.0            | 1.0            | False    |
+| Vicente_Fox_0020.png                 | 1.0            | 1.0            | False    |
+| Carrie-Anne_Moss_0004.png            | 1.0            | 1.0            | False    |
+| Tony_Blair_0097.png                  | 1.0            | 1.0            | False    |
+| Vicente_Fox_0015.png                 | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0059.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0368.png               | 1.0            | 1.0            | False    |
+| Paul_Bremer_0005.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0222.png                | 1.0            | 1.0            | False    |
+| John_Negroponte_0013.png             | 1.0            | 1.0            | False    |
+| Naomi_Watts_0015.png                 | 0.030          | 0.030          | False    |
+| Jean_Chretien_0054.png               | 1.0            | 1.0            | False    |
+| Andre_Agassi_0011.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0511.png               | 1.0            | 1.0            | False    |
+| Janet_Napolitano_0004.png            | 1.0            | 1.0            | False    |
+| Carlos_Moya_0015.png                 | 1.0            | 1.0            | False    |
+| John_Ashcroft_0032.png               | 1.0            | 1.0            | False    |
+| Geoff_Hoon_0006.png                  | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0004.png     | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0025.png           | 1.0            | 1.0            | False    |
+| Carlos_Moya_0011.png                 | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0030.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0378.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0327.png               | 1.0            | 1.0            | False    |
+| Naomi_Watts_0007.png                 | 0.030          | 0.030          | False    |
+| Silvio_Berlusconi_0026.png           | 0.036          | 0.036          | False    |
+| Colin_Powell_0067.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0527.png               | 1.0            | 1.0            | False    |
+| Kevin_Costner_0008.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0325.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0469.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0383.png               | 1.0            | 1.0            | False    |
+| Jesse_Jackson_0003.png               | 1.0            | 1.0            | False    |
+| Holly_Hunter_0004.png                | 0.5            | 0.5            | False    |
+| Kofi_Annan_0025.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0011.png               | 1.0            | 1.0            | False    |
+| Sean_OKeefe_0001.png                 | 1.0            | 1.0            | False    |
+| John_Allen_Muhammad_0008.png         | 1.0            | 1.0            | False    |
+| Colin_Powell_0208.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0086.png                  | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0016.png   | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0100.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0161.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0333.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0218.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0047.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0406.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0030.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0058.png           | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0070.png             | 1.0            | 1.0            | False    |
+| Hamid_Karzai_0015.png                | 1.0            | 1.0            | False    |
+| Tommy_Franks_0009.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0062.png             | 1.0            | 1.0            | False    |
+| Larry_Thompson_0002.png              | 1.0            | 1.0            | False    |
+| Hamid_Karzai_0022.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0452.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0054.png               | 1.0            | 1.0            | False    |
+| Demi_Moore_0001.png                  | 0.1            | 0.1            | False    |
+| George_W_Bush_0095.png               | 1.0            | 1.0            | False    |
+| Jean-David_Levitte_0001.png          | 1.0            | 1.0            | False    |
+| Ana_Guevara_0004.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0106.png                | 1.0            | 1.0            | False    |
+| James_Blake_0004.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0155.png               | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0002.png       | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0020.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0095.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0489.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0022.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0199.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0011.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0061.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0116.png                | 1.0            | 1.0            | False    |
+| Lleyton_Hewitt_0024.png              | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0020.png              | 0.016          | 0.016          | False    |
+| Bill_Gates_0006.png                  | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0049.png                | 1.0            | 1.0            | False    |
+| Tom_Ridge_0031.png                   | 1.0            | 1.0            | False    |
+| Bernard_Law_0004.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0280.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0032.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0277.png               | 1.0            | 1.0            | False    |
+| Kurt_Warner_0001.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0149.png                | 1.0            | 1.0            | False    |
+| John_Allen_Muhammad_0003.png         | 1.0            | 1.0            | False    |
+| Colin_Powell_0109.png                | 1.0            | 1.0            | False    |
+| Hillary_Clinton_0006.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0385.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0170.png                | 1.0            | 1.0            | False    |
+| Yoriko_Kawaguchi_0004.png            | 1.0            | 1.0            | False    |
+| Roger_Federer_0012.png               | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0025.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0439.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0441.png               | 1.0            | 1.0            | False    |
+| John_Negroponte_0002.png             | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0011.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0004.png           | 1.0            | 1.0            | False    |
+| Jean_Chretien_0044.png               | 1.0            | 1.0            | False    |
+| Hamid_Karzai_0013.png                | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0025.png       | 0.137          | 0.137          | False    |
+| Taha_Yassin_Ramadan_0007.png         | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0026.png       | 1.0            | 1.0            | False    |
+| Walter_Mondale_0008.png              | 1.0            | 1.0            | False    |
+| Colin_Powell_0007.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0048.png                  | 1.0            | 1.0            | False    |
+| Venus_Williams_0013.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0308.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0371.png               | 1.0            | 1.0            | False    |
+| Tommy_Haas_0001.png                  | 1.0            | 1.0            | False    |
+| Elton_John_0007.png                  | 0.2            | 0.2            | False    |
+| George_W_Bush_0424.png               | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0015.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0225.png                | 1.0            | 1.0            | False    |
+| Vicente_Fox_0006.png                 | 1.0            | 1.0            | False    |
+| John_Bolton_0003.png                 | 1.0            | 1.0            | False    |
+| Laura_Bush_0040.png                  | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0039.png           | 1.0            | 0.866          | True     |
+| David_Wells_0006.png                 | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0042.png           | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0011.png             | 0.046          | 0.046          | False    |
+| Abdullah_Gul_0001.png                | 0.083          | 0.083          | False    |
+| Serena_Williams_0048.png             | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0028.png              | 0.016          | 0.016          | False    |
+| Colin_Powell_0053.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0029.png                 | 1.0            | 1.0            | False    |
+| Juan_Pablo_Montoya_0004.png          | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0053.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0316.png               | 1.0            | 1.0            | False    |
+| Pete_Sampras_0005.png                | 0.454          | 0.454          | False    |
+| Tony_Blair_0061.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0202.png               | 1.0            | 1.0            | False    |
+| John_Ashcroft_0015.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0007.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0065.png           | 1.0            | 1.0            | False    |
+| John_Ashcroft_0017.png               | 1.0            | 1.0            | False    |
+| John_Negroponte_0010.png             | 1.0            | 1.0            | False    |
+| James_Blake_0001.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0084.png               | 1.0            | 1.0            | False    |
+| Kurt_Warner_0005.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0128.png               | 1.0            | 1.0            | False    |
+| Kim_Clijsters_0001.png               | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0007.png            | 1.0            | 1.0            | False    |
+| Hu_Jintao_0003.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0033.png               | 1.0            | 1.0            | False    |
+| Laura_Bush_0023.png                  | 1.0            | 1.0            | False    |
+| Robert_De_Niro_0001.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0112.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0004.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0125.png                | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0015.png           | 1.0            | 1.0            | False    |
+| Kalpana_Chawla_0004.png              | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0121.png             | 1.0            | 1.0            | False    |
+| Jean_Chretien_0009.png               | 1.0            | 1.0            | False    |
+| Tung_Chee-hwa_0008.png               | 1.0            | 1.0            | False    |
+| Michael_Bloomberg_0015.png           | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0013.png                | 1.0            | 1.0            | False    |
+| Venus_Williams_0016.png              | 1.0            | 1.0            | False    |
+| Kofi_Annan_0031.png                  | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0012.png   | 1.0            | 1.0            | False    |
+| George_W_Bush_0152.png               | 1.0            | 1.0            | False    |
+| Sean_OKeefe_0004.png                 | 1.0            | 1.0            | False    |
+| Tony_Blair_0137.png                  | 1.0            | 1.0            | False    |
+| Marco_Antonio_Barrera_0005.png       | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0092.png             | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0054.png           | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0053.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0204.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0090.png             | 1.0            | 1.0            | False    |
+| Nicanor_Duarte_Frutos_0003.png       | 1.0            | 1.0            | False    |
+| Harrison_Ford_0007.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0206.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0065.png                  | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0029.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0456.png               | 1.0            | 1.0            | False    |
+| Bernard_Law_0002.png                 | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0019.png     | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0074.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0019.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0341.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0020.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0324.png               | 1.0            | 1.0            | False    |
+| Pedro_Solbes_0003.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0231.png                | 1.0            | 1.0            | False    |
+| Robert_De_Niro_0002.png              | 1.0            | 1.0            | False    |
+| Gerry_Adams_0002.png                 | 1.0            | 1.0            | False    |
+| Celine_Dion_0006.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0190.png               | 1.0            | 1.0            | False    |
+| James_Blake_0009.png                 | 1.0            | 1.0            | False    |
+| Serena_Williams_0023.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0281.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0088.png               | 1.0            | 1.0            | False    |
+| John_Ashcroft_0019.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0021.png                 | 1.0            | 1.0            | False    |
+| Raoul_Ruiz_0004.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0415.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0069.png               | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0005.png              | 0.333          | 0.333          | False    |
+| George_W_Bush_0150.png               | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0041.png     | 1.0            | 1.0            | False    |
+| James_Wolfensohn_0001.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0384.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0004.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0029.png                | 1.0            | 1.0            | False    |
+| James_Kelly_0001.png                 | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0015.png   | 1.0            | 1.0            | False    |
+| George_W_Bush_0467.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0012.png               | 1.0            | 1.0            | False    |
+| John_Howard_0014.png                 | 1.0            | 1.0            | False    |
+| John_Ashcroft_0040.png               | 1.0            | 1.0            | False    |
+| Carlos_Moya_0001.png                 | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0016.png           | 0.866          | 1.0            | False    |
+| Megawati_Sukarnoputri_0032.png       | 1.0            | 1.0            | False    |
+| Edmund_Stoiber_0012.png              | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0030.png              | 0.016          | 0.016          | False    |
+| George_W_Bush_0436.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0501.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0419.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0041.png                | 1.0            | 1.0            | False    |
+| Tim_Henman_0010.png                  | 1.0            | 1.0            | False    |
+| Jean_Chretien_0024.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0096.png               | 1.0            | 1.0            | False    |
+| Alexander_Downer_0002.png            | 1.0            | 1.0            | False    |
+| Hans_Blix_0039.png                   | 1.0            | 1.0            | False    |
+| Marco_Antonio_Barrera_0002.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0425.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0023.png                   | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0026.png     | 1.0            | 1.0            | False    |
+| Colin_Powell_0107.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0144.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0232.png                | 1.0            | 1.0            | False    |
+| Yashwant_Sinha_0003.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0180.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0045.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0059.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0139.png                  | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0038.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0115.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0220.png                | 1.0            | 1.0            | False    |
+| Tung_Chee-hwa_0004.png               | 1.0            | 1.0            | False    |
+| John_Allen_Muhammad_0007.png         | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0033.png              | 0.016          | 0.016          | False    |
+| Mahmoud_Abbas_0024.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0471.png               | 1.0            | 1.0            | False    |
+| Tim_Henman_0018.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0045.png             | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0015.png             | 0.046          | 0.046          | False    |
+| George_W_Bush_0184.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0160.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0135.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0006.png                 | 1.0            | 1.0            | False    |
+| Juan_Carlos_Ferrero_0001.png         | 1.0            | 1.0            | False    |
+| Angela_Merkel_0005.png               | 0.057          | 0.057          | False    |
+| Donald_Rumsfeld_0047.png             | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0015.png           | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0088.png             | 1.0            | 1.0            | False    |
+| Oxana_Fedorova_0001.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0381.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0149.png               | 1.0            | 1.0            | False    |
+| Mark_Philippoussis_0007.png          | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0024.png       | 1.0            | 1.0            | False    |
+| Jean_Chretien_0006.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0066.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0028.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0089.png                | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0013.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0274.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0373.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0062.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0074.png               | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0011.png                | 0.058          | 0.058          | False    |
+| Juan_Carlos_Ferrero_0028.png         | 0.125          | 0.125          | False    |
+| Tony_Blair_0011.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0130.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0165.png                | 1.0            | 1.0            | False    |
+| Muhammad_Ali_0004.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0036.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0032.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0438.png               | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0024.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0042.png                | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0022.png              | 0.333          | 0.333          | False    |
+| Jacques_Rogge_0004.png               | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0023.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0051.png                | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0013.png     | 1.0            | 1.0            | False    |
+| Tom_Ridge_0017.png                   | 1.0            | 1.0            | False    |
+| Tony_Blair_0089.png                  | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0026.png            | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0048.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0251.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0446.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0068.png                | 1.0            | 1.0            | False    |
+| Claudia_Pechstein_0004.png           | 1.0            | 1.0            | False    |
+| Li_Zhaoxing_0005.png                 | 1.0            | 1.0            | False    |
+| Paul_Bremer_0004.png                 | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0013.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0151.png               | 1.0            | 1.0            | False    |
+| Maria_Shriver_0004.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0198.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0004.png                | 1.0            | 1.0            | False    |
+| Muhammad_Ali_0003.png                | 1.0            | 1.0            | False    |
+| Nicanor_Duarte_Frutos_0006.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0163.png               | 1.0            | 1.0            | False    |
+| John_Ashcroft_0048.png               | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0036.png           | 1.0            | 1.0            | False    |
+| Serena_Williams_0033.png             | 1.0            | 1.0            | False    |
+| Vicente_Fox_0031.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0302.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0050.png           | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0028.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0236.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0049.png               | 1.0            | 1.0            | False    |
+| David_Stern_0004.png                 | 1.0            | 1.0            | False    |
+| Jean_Chretien_0041.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0078.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0051.png           | 1.0            | 1.0            | False    |
+| Tony_Blair_0130.png                  | 1.0            | 1.0            | False    |
+| Laura_Bush_0037.png                  | 1.0            | 1.0            | False    |
+| Jeremy_Greenstock_0020.png           | 1.0            | 1.0            | False    |
+| Pedro_Solbes_0002.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0026.png             | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0077.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0085.png                | 1.0            | 1.0            | False    |
+| Angela_Merkel_0001.png               | 0.057          | 0.057          | False    |
+| Tony_Blair_0099.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0026.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0060.png               | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0018.png              | 0.333          | 0.333          | False    |
+| Serena_Williams_0022.png             | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0006.png              | 0.016          | 0.016          | False    |
+| Rudolph_Giuliani_0003.png            | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0029.png            | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0006.png           | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0009.png     | 1.0            | 1.0            | False    |
+| George_W_Bush_0062.png               | 1.0            | 1.0            | False    |
+| George_Robertson_0008.png            | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0009.png   | 1.0            | 1.0            | False    |
+| George_W_Bush_0264.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0053.png                  | 1.0            | 1.0            | False    |
+| Mahmoud_Abbas_0009.png               | 1.0            | 1.0            | False    |
+| Juan_Carlos_Ferrero_0009.png         | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0042.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0473.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0409.png               | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0011.png     | 1.0            | 1.0            | False    |
+| Andre_Agassi_0021.png                | 1.0            | 1.0            | False    |
+| Kofi_Annan_0011.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0348.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0042.png       | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0026.png                | 1.0            | 1.0            | False    |
+| Igor_Ivanov_0004.png                 | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0012.png                | 1.0            | 1.0            | False    |
+| Binyamin_Ben-Eliezer_0006.png        | 1.0            | 1.0            | False    |
+| George_W_Bush_0020.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0100.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0505.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0001.png                | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0014.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0431.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0510.png               | 1.0            | 1.0            | False    |
+| Tiger_Woods_0016.png                 | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0060.png           | 1.0            | 1.0            | False    |
+| Abdullah_Gul_0012.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0003.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0064.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0254.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0142.png                | 1.0            | 1.0            | False    |
+| Jeremy_Greenstock_0014.png           | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0018.png           | 0.866          | 0.866          | False    |
+| Tony_Blair_0122.png                  | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0044.png                 | 1.0            | 1.0            | False    |
+| Edmund_Stoiber_0010.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0233.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0010.png       | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0092.png           | 0.033          | 0.033          | False    |
+| George_W_Bush_0043.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0140.png                | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0039.png              | 0.016          | 0.016          | False    |
+| George_W_Bush_0470.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0002.png               | 1.0            | 1.0            | False    |
+| Serena_Williams_0020.png             | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0069.png           | 1.0            | 1.0            | False    |
+| Kim_Dae-jung_0001.png                | 0.194          | 0.194          | False    |
+| Silvio_Berlusconi_0014.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0081.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0027.png               | 1.0            | 1.0            | False    |
+| Claudia_Pechstein_0002.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0428.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0041.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0176.png               | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0005.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0248.png               | 1.0            | 1.0            | False    |
+| Serena_Williams_0038.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0045.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0200.png                | 1.0            | 1.0            | False    |
+| Jean_Chretien_0034.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0020.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0174.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0043.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0101.png             | 1.0            | 1.0            | False    |
+| Naomi_Watts_0002.png                 | 0.030          | 0.030          | False    |
+| Joschka_Fischer_0018.png             | 0.046          | 0.046          | False    |
+| Gloria_Macapagal_Arroyo_0033.png     | 1.0            | 1.0            | False    |
+| Igor_Ivanov_0013.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0028.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0478.png               | 1.0            | 1.0            | False    |
+| Ricardo_Lagos_0027.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0010.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0337.png               | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0005.png     | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0002.png                | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0041.png           | 1.0            | 1.0            | False    |
+| Mahmoud_Abbas_0005.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0354.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0049.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0104.png           | 1.0            | 1.0            | False    |
+| Tony_Blair_0125.png                  | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0031.png     | 1.0            | 1.0            | False    |
+| Kofi_Annan_0024.png                  | 1.0            | 1.0            | False    |
+| Heath_Ledger_0001.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0001.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0016.png       | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0055.png           | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0009.png            | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0036.png           | 0.866          | 0.866          | False    |
+| George_W_Bush_0237.png               | 1.0            | 1.0            | False    |
+| Maria_Shriver_0002.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0154.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0367.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0037.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0216.png                | 1.0            | 1.0            | False    |
+| Abdullah_Gul_0014.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0079.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0365.png               | 1.0            | 1.0            | False    |
+| John_Negroponte_0025.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0466.png               | 1.0            | 1.0            | False    |
+| Jeremy_Greenstock_0002.png           | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0029.png           | 1.0            | 1.0            | False    |
+| Winona_Ryder_0019.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0056.png                 | 1.0            | 1.0            | False    |
+| Julie_Gerberding_0009.png            | 1.0            | 1.0            | False    |
+| Kofi_Annan_0013.png                  | 1.0            | 1.0            | False    |
+| Heizo_Takenaka_0004.png              | 1.0            | 1.0            | False    |
+| Hu_Jintao_0004.png                   | 1.0            | 1.0            | False    |
+| Pedro_Almodovar_0004.png             | 1.0            | 1.0            | False    |
+| Hu_Jintao_0010.png                   | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0018.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0009.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0172.png                | 1.0            | 1.0            | False    |
+| Jiri_Novak_0007.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0397.png               | 1.0            | 1.0            | False    |
+| Jose_Manuel_Durao_Barroso_0002.png   | 1.0            | 1.0            | False    |
+| Jennifer_Lopez_0009.png              | 0.928          | 0.928          | False    |
+| Amelie_Mauresmo_0002.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0135.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0197.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0410.png               | 1.0            | 1.0            | False    |
+| Gilberto_Rodriguez_Orejuela_0002.png | 1.0            | 1.0            | False    |
+| Kim_Dae-jung_0007.png                | 0.194          | 0.194          | False    |
+| George_W_Bush_0042.png               | 1.0            | 1.0            | False    |
+| Lleyton_Hewitt_0019.png              | 1.0            | 1.0            | False    |
+| Tony_Blair_0117.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0017.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0061.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0134.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0115.png                  | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0007.png             | 0.046          | 1.0            | False    |
+| George_W_Bush_0455.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0063.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0204.png                | 1.0            | 1.0            | False    |
+| Norah_Jones_0010.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0146.png               | 1.0            | 1.0            | False    |
+| Demi_Moore_0004.png                  | 0.1            | 0.1            | False    |
+| Carlos_Moya_0014.png                 | 1.0            | 1.0            | False    |
+| Hosni_Mubarak_0002.png               | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0002.png             | 0.046          | 0.046          | False    |
+| Lance_Armstrong_0001.png             | 1.0            | 1.0            | False    |
+| Lindsay_Davenport_0016.png           | 0.5            | 0.5            | False    |
+| Donald_Rumsfeld_0055.png             | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0054.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0123.png                | 1.0            | 1.0            | False    |
+| Tiger_Woods_0014.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0158.png                | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0039.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0252.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0315.png               | 1.0            | 1.0            | False    |
+| Kofi_Annan_0010.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0023.png             | 1.0            | 1.0            | False    |
+| Harrison_Ford_0012.png               | 1.0            | 1.0            | False    |
+| Naomi_Watts_0006.png                 | 0.030          | 0.030          | False    |
+| Colin_Powell_0051.png                | 1.0            | 1.0            | False    |
+| Juan_Pablo_Montoya_0003.png          | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0028.png           | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0005.png            | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0020.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0506.png               | 1.0            | 1.0            | False    |
+| James_Blake_0006.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0038.png                | 1.0            | 1.0            | False    |
+| Gordon_Brown_0008.png                | 0.074          | 0.074          | False    |
+| George_W_Bush_0021.png               | 1.0            | 1.0            | False    |
+| Atal_Bihari_Vajpayee_0009.png        | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0024.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0035.png               | 1.0            | 1.0            | False    |
+| Mike_Martz_0001.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0038.png           | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0022.png                | 1.0            | 1.0            | False    |
+| John_Allen_Muhammad_0009.png         | 1.0            | 1.0            | False    |
+| Laura_Bush_0010.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0107.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0239.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0457.png               | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0028.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0093.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0105.png                | 1.0            | 1.0            | False    |
+| David_Beckham_0029.png               | 0.393          | 0.393          | False    |
+| George_W_Bush_0164.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0058.png                 | 1.0            | 1.0            | False    |
+| Tony_Blair_0029.png                  | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0014.png             | 0.046          | 0.046          | False    |
+| Jennifer_Capriati_0007.png           | 1.0            | 1.0            | False    |
+| Jean_Chretien_0019.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0091.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0143.png                | 1.0            | 1.0            | False    |
+| Kofi_Annan_0018.png                  | 1.0            | 1.0            | False    |
+| Tony_Blair_0123.png                  | 1.0            | 1.0            | False    |
+| Franz_Fischler_0004.png              | 1.0            | 1.0            | False    |
+| Helen_Clark_0002.png                 | 1.0            | 1.0            | False    |
+| Serena_Williams_0010.png             | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0017.png            | 1.0            | 1.0            | False    |
+| Javier_Solana_0003.png               | 0.142          | 0.142          | False    |
+| Venus_Williams_0003.png              | 1.0            | 1.0            | False    |
+| Colin_Powell_0082.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0092.png                  | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0030.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0412.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0362.png               | 1.0            | 1.0            | False    |
+| Abdullah_Gul_0010.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0046.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0011.png                 | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0036.png                 | 1.0            | 1.0            | False    |
+| Charles_Moose_0004.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0263.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0177.png               | 1.0            | 1.0            | False    |
+| Jeremy_Greenstock_0016.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0063.png               | 1.0            | 1.0            | False    |
+| Heizo_Takenaka_0001.png              | 1.0            | 1.0            | False    |
+| Pedro_Almodovar_0001.png             | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0042.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0141.png                  | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0007.png       | 1.0            | 1.0            | False    |
+| Carrie-Anne_Moss_0001.png            | 1.0            | 1.0            | False    |
+| Kofi_Annan_0006.png                  | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0014.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0339.png               | 1.0            | 1.0            | False    |
+| Hamid_Karzai_0018.png                | 1.0            | 1.0            | False    |
+| Andre_Agassi_0022.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0079.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0234.png               | 1.0            | 1.0            | False    |
+| David_Beckham_0005.png               | 0.393          | 0.393          | False    |
+| George_W_Bush_0462.png               | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0002.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0210.png                | 1.0            | 1.0            | False    |
+| Jackie_Chan_0010.png                 | 0.056          | 0.056          | False    |
+| Ariel_Sharon_0033.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0052.png                 | 1.0            | 1.0            | False    |
+| Jean-David_Levitte_0009.png          | 1.0            | 1.0            | False    |
+| Colin_Powell_0177.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0005.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0035.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0175.png                | 1.0            | 1.0            | False    |
+| John_Ashcroft_0012.png               | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0023.png   | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0007.png       | 1.0            | 1.0            | False    |
+| Wen_Jiabao_0012.png                  | 1.0            | 1.0            | False    |
+| Al_Sharpton_0006.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0230.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0046.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0008.png                | 1.0            | 1.0            | False    |
+| Heizo_Takenaka_0005.png              | 1.0            | 1.0            | False    |
+| Pedro_Almodovar_0005.png             | 1.0            | 1.0            | False    |
+| Jennifer_Aniston_0013.png            | 0.846          | 0.846          | False    |
+| Colin_Powell_0186.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0194.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0044.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0063.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0215.png                | 1.0            | 1.0            | False    |
+| Michael_Douglas_0001.png             | 0.033          | 0.033          | False    |
+| Jose_Maria_Aznar_0014.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0143.png               | 1.0            | 1.0            | False    |
+| Francisco_Flores_0001.png            | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0039.png             | 1.0            | 1.0            | False    |
+| Michael_Douglas_0003.png             | 0.033          | 0.033          | False    |
+| Donald_Rumsfeld_0057.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0242.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0141.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0055.png                 | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0034.png           | 1.0            | 1.0            | False    |
+| Tony_Blair_0018.png                  | 1.0            | 1.0            | False    |
+| Bill_Clinton_0029.png                | 1.0            | 1.0            | False    |
+| Naomi_Watts_0019.png                 | 0.030          | 0.030          | False    |
+| George_W_Bush_0353.png               | 1.0            | 1.0            | False    |
+| Steve_Nash_0003.png                  | 1.0            | 1.0            | False    |
+| Al_Sharpton_0002.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0512.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0004.png                   | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0044.png                | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0023.png           | 0.036          | 0.036          | False    |
+| Tom_Ridge_0006.png                   | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0017.png              | 0.333          | 0.016          | True     |
+| James_Blake_0002.png                 | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0006.png            | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0001.png             | 0.046          | 0.046          | False    |
+| Rebekah_Chantay_Revels_0002.png      | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0027.png           | 1.0            | 1.0            | False    |
+| John_Ashcroft_0009.png               | 1.0            | 1.0            | False    |
+| Amelia_Vega_0002.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0357.png               | 1.0            | 1.0            | False    |
+| Jean_Chretien_0052.png               | 1.0            | 1.0            | False    |
+| Rudolph_Giuliani_0019.png            | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0065.png                | 1.0            | 1.0            | False    |
+| Mahathir_Mohamad_0012.png            | 0.258          | 0.258          | False    |
+| George_W_Bush_0490.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0012.png                | 1.0            | 1.0            | False    |
+| Bob_Graham_0002.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0181.png                | 1.0            | 1.0            | False    |
+| Jacques_Rogge_0001.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0443.png               | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0021.png                | 1.0            | 1.0            | False    |
+| Juan_Carlos_Ferrero_0015.png         | 1.0            | 1.0            | False    |
+| Naomi_Watts_0021.png                 | 0.030          | 0.030          | False    |
+| Colin_Powell_0209.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0480.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0392.png               | 1.0            | 1.0            | False    |
+| Jennifer_Aniston_0009.png            | 0.846          | 0.846          | False    |
+| John_Allen_Muhammad_0011.png         | 1.0            | 1.0            | False    |
+| Kofi_Annan_0012.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0222.png               | 1.0            | 1.0            | False    |
+| Serena_Williams_0037.png             | 1.0            | 1.0            | False    |
+| Tony_Blair_0034.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0271.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0238.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0035.png       | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0025.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0125.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0129.png                  | 1.0            | 1.0            | False    |
+| Hillary_Clinton_0013.png             | 1.0            | 1.0            | False    |
+| Tony_Blair_0006.png                  | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0010.png           | 1.0            | 1.0            | False    |
+| Alvaro_Uribe_0019.png                | 0.058          | 0.058          | False    |
+| Junichiro_Koizumi_0045.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0104.png               | 1.0            | 1.0            | False    |
+| Amelie_Mauresmo_0013.png             | 1.0            | 1.0            | False    |
+| Tom_Ridge_0022.png                   | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0016.png     | 1.0            | 1.0            | False    |
+| Harrison_Ford_0002.png               | 1.0            | 1.0            | False    |
+| Marc_Grossman_0004.png               | 1.0            | 1.0            | False    |
+| Kalpana_Chawla_0001.png              | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0043.png           | 0.866          | 1.0            | False    |
+| Vladimir_Putin_0015.png              | 0.016          | 0.016          | False    |
+| Donald_Rumsfeld_0060.png             | 1.0            | 1.0            | False    |
+| Kofi_Annan_0002.png                  | 1.0            | 1.0            | False    |
+| Kim_Ryong-sung_0005.png              | 0.666          | 0.666          | False    |
+| Gerhard_Schroeder_0011.png           | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0109.png             | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0004.png       | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0003.png             | 0.046          | 0.046          | False    |
+| Gerry_Adams_0001.png                 | 1.0            | 1.0            | False    |
+| Pete_Sampras_0022.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0078.png           | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0008.png            | 1.0            | 1.0            | False    |
+| Dale_Earnhardt_Jr_0003.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0093.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0388.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0181.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0225.png               | 1.0            | 1.0            | False    |
+| Michael_Douglas_0004.png             | 0.033          | 0.033          | False    |
+| George_W_Bush_0068.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0046.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0159.png               | 1.0            | 1.0            | False    |
+| Pupi_Avati_0003.png                  | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0027.png     | 1.0            | 1.0            | False    |
+| Tang_Jiaxuan_0003.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0070.png                 | 1.0            | 1.0            | False    |
+| Naomi_Watts_0011.png                 | 0.030          | 0.030          | False    |
+| George_W_Bush_0520.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0016.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0035.png                | 0.083          | 1.0            | False    |
+| Hans_Blix_0025.png                   | 1.0            | 1.0            | False    |
+| Colin_Powell_0184.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0213.png                | 1.0            | 1.0            | False    |
+| Jeremy_Greenstock_0024.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0151.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0131.png               | 1.0            | 1.0            | False    |
+| Kofi_Annan_0022.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0060.png                | 1.0            | 1.0            | False    |
+| Hillary_Clinton_0004.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0386.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0013.png               | 1.0            | 1.0            | False    |
+| Salma_Hayek_0010.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0286.png               | 1.0            | 1.0            | False    |
+| Tom_Cruise_0010.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0188.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0056.png             | 1.0            | 1.0            | False    |
+| Tony_Blair_0077.png                  | 1.0            | 1.0            | False    |
+| Tony_Blair_0028.png                  | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0050.png                | 0.083          | 1.0            | False    |
+| Jennifer_Capriati_0006.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0090.png                | 1.0            | 1.0            | False    |
+| Joe_Nichols_0003.png                 | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0011.png       | 1.0            | 1.0            | False    |
+| Tony_Blair_0038.png                  | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0022.png   | 1.0            | 1.0            | False    |
+| Bill_Clinton_0021.png                | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0009.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0515.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0085.png             | 1.0            | 1.0            | False    |
+| Nestor_Kirchner_0030.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0249.png               | 1.0            | 1.0            | False    |
+| Tiger_Woods_0008.png                 | 1.0            | 1.0            | False    |
+| Mike_Tyson_0001.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0217.png               | 1.0            | 1.0            | False    |
+| Serena_Williams_0031.png             | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0046.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0142.png               | 1.0            | 1.0            | False    |
+| Tung_Chee-hwa_0003.png               | 1.0            | 1.0            | False    |
+| Lleyton_Hewitt_0020.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0347.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0169.png                | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0060.png                 | 1.0            | 1.0            | False    |
+| Lindsay_Davenport_0012.png           | 0.5            | 0.5            | False    |
+| George_W_Bush_0454.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0187.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0122.png               | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0006.png       | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0020.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0185.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0161.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0134.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0330.png               | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0064.png                 | 1.0            | 1.0            | False    |
+| Rudolph_Giuliani_0011.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0220.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0037.png           | 1.0            | 1.0            | False    |
+| Luis_Gonzalez_Macchi_0003.png        | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0022.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0245.png               | 1.0            | 1.0            | False    |
+| Saddam_Hussein_0012.png              | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0006.png   | 1.0            | 1.0            | False    |
+| George_W_Bush_0420.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0434.png               | 1.0            | 1.0            | False    |
+| Marcelo_Rios_0005.png                | 1.0            | 1.0            | False    |
+| Debbie_Reynolds_0002.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0111.png                | 1.0            | 1.0            | False    |
+| Serena_Williams_0029.png             | 1.0            | 1.0            | False    |
+| Princess_Caroline_0003.png           | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0034.png              | 0.016          | 0.016          | False    |
+| George_W_Bush_0331.png               | 1.0            | 1.0            | False    |
+| Jacques_Rogge_0002.png               | 1.0            | 1.0            | False    |
+| Kalpana_Chawla_0003.png              | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0002.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0374.png               | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0021.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0408.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0019.png               | 1.0            | 1.0            | False    |
+| Jennifer_Lopez_0002.png              | 0.928          | 0.928          | False    |
+| Hamid_Karzai_0011.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0279.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0376.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0465.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0033.png       | 0.137          | 0.137          | False    |
+| Colin_Powell_0064.png                | 1.0            | 1.0            | False    |
+| Vicente_Fox_0024.png                 | 1.0            | 1.0            | False    |
+| Tom_Ridge_0025.png                   | 1.0            | 1.0            | False    |
+| Colin_Powell_0174.png                | 1.0            | 1.0            | False    |
+| Pierce_Brosnan_0008.png              | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0014.png       | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0003.png              | 0.016          | 0.016          | False    |
+| Tim_Henman_0006.png                  | 1.0            | 1.0            | False    |
+| Jacques_Rogge_0006.png               | 1.0            | 1.0            | False    |
+| George_Robertson_0020.png            | 1.0            | 1.0            | False    |
+| Tom_Ridge_0021.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0404.png               | 1.0            | 1.0            | False    |
+| Candie_Kung_0003.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0300.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0037.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0517.png               | 1.0            | 1.0            | False    |
+| Steve_Lavin_0003.png                 | 1.0            | 1.0            | False    |
+| Tom_Cruise_0001.png                  | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0014.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0099.png                | 1.0            | 1.0            | False    |
+| Laura_Bush_0005.png                  | 1.0            | 1.0            | False    |
+| John_Howard_0005.png                 | 1.0            | 1.0            | False    |
+| Tim_Robbins_0002.png                 | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0016.png           | 1.0            | 1.0            | False    |
+| Naomi_Watts_0013.png                 | 0.030          | 0.030          | False    |
+| George_W_Bush_0140.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0391.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0007.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0241.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0022.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0099.png               | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0020.png           | 1.0            | 1.0            | False    |
+| Robert_De_Niro_0003.png              | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0017.png       | 1.0            | 1.0            | False    |
+| Colin_Powell_0128.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0529.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0025.png             | 1.0            | 1.0            | False    |
+| Colin_Powell_0057.png                | 1.0            | 1.0            | False    |
+| Marco_Antonio_Barrera_0003.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0120.png               | 1.0            | 1.0            | False    |
+| Hans_Blix_0023.png                   | 1.0            | 1.0            | False    |
+| John_Negroponte_0030.png             | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0025.png           | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0013.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0155.png                | 1.0            | 1.0            | False    |
+| Joe_Nichols_0001.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0379.png               | 1.0            | 1.0            | False    |
+| Naomi_Watts_0010.png                 | 0.030          | 0.030          | False    |
+| Paul_Martin_0001.png                 | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0013.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0114.png               | 1.0            | 1.0            | False    |
+| Mahmoud_Abbas_0017.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0052.png           | 1.0            | 1.0            | False    |
+| Dale_Earnhardt_Jr_0004.png           | 1.0            | 1.0            | False    |
+| Winona_Ryder_0022.png                | 1.0            | 1.0            | False    |
+| Jennifer_Lopez_0007.png              | 0.928          | 0.928          | False    |
+| Colin_Powell_0030.png                | 1.0            | 1.0            | False    |
+| Fidel_Castro_0008.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0526.png               | 1.0            | 1.0            | False    |
+| John_Kerry_0017.png                  | 0.625          | 0.625          | False    |
+| Naomi_Watts_0001.png                 | 0.030          | 0.030          | False    |
+| John_Ashcroft_0023.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0483.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0304.png               | 1.0            | 1.0            | False    |
+| Jacques_Chirac_0052.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0169.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0014.png           | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0011.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0091.png                | 1.0            | 1.0            | False    |
+| David_Beckham_0028.png               | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0112.png             | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0036.png              | 0.016          | 0.016          | False    |
+| George_W_Bush_0451.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0019.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0389.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0227.png                | 1.0            | 1.0            | False    |
+| Vicente_Fox_0004.png                 | 1.0            | 1.0            | False    |
+| Serena_Williams_0050.png             | 1.0            | 1.0            | False    |
+| Hillary_Clinton_0009.png             | 1.0            | 1.0            | False    |
+| Tiger_Woods_0009.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0321.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0257.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0216.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0015.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0318.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0094.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0049.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0003.png           | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0013.png       | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0012.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0255.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0070.png                | 1.0            | 1.0            | False    |
+| Kim_Dae-jung_0008.png                | 1.0            | 0.194          | True     |
+| Kim_Ryong-sung_0004.png              | 0.666          | 0.666          | False    |
+| Roh_Moo-hyun_0017.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0103.png                  | 1.0            | 1.0            | False    |
+| Colin_Powell_0189.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0040.png                | 1.0            | 1.0            | False    |
+| Andre_Agassi_0020.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0023.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0186.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0045.png               | 1.0            | 1.0            | False    |
+| Bill_Simon_0002.png                  | 1.0            | 1.0            | False    |
+| Lance_Armstrong_0008.png             | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0051.png           | 1.0            | 1.0            | False    |
+| Kim_Ryong-sung_0006.png              | 0.666          | 0.666          | False    |
+| Tony_Blair_0107.png                  | 1.0            | 1.0            | False    |
+| Al_Gore_0007.png                     | 1.0            | 1.0            | False    |
+| George_W_Bush_0477.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0015.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0025.png           | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0008.png             | 1.0            | 1.0            | False    |
+| Laura_Bush_0029.png                  | 1.0            | 1.0            | False    |
+| Muhammad_Ali_0007.png                | 1.0            | 1.0            | False    |
+| Colin_Powell_0185.png                | 1.0            | 1.0            | False    |
+| Lleyton_Hewitt_0004.png              | 1.0            | 1.0            | False    |
+| Colin_Powell_0164.png                | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0019.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0004.png             | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0022.png            | 1.0            | 1.0            | False    |
+| Allyson_Felix_0001.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0345.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0127.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0375.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0058.png                  | 1.0            | 1.0            | False    |
+| Mahmoud_Abbas_0022.png               | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0030.png            | 1.0            | 1.0            | False    |
+| Jeb_Bush_0010.png                    | 1.0            | 1.0            | False    |
+| George_W_Bush_0440.png               | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0030.png   | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0059.png           | 1.0            | 1.0            | False    |
+| Angela_Merkel_0002.png               | 0.057          | 0.057          | False    |
+| Hugo_Chavez_0016.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0229.png               | 1.0            | 1.0            | False    |
+| Yoriko_Kawaguchi_0001.png            | 1.0            | 1.0            | False    |
+| Joschka_Fischer_0017.png             | 1.0            | 1.0            | False    |
+| Vicente_Fernandez_0003.png           | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0034.png            | 1.0            | 1.0            | False    |
+| Walter_Mondale_0009.png              | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0017.png            | 1.0            | 1.0            | False    |
+| Colin_Powell_0093.png                | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0036.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0289.png               | 1.0            | 1.0            | False    |
+| Ricardo_Lagos_0017.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0066.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0405.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0006.png               | 1.0            | 1.0            | False    |
+| Carlos_Moya_0005.png                 | 1.0            | 1.0            | False    |
+| Andre_Agassi_0027.png                | 1.0            | 1.0            | False    |
+| Meryl_Streep_0007.png                | 1.0            | 1.0            | False    |
+| George_Robertson_0017.png            | 1.0            | 1.0            | False    |
+| Julie_Gerberding_0002.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0111.png               | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0010.png           | 1.0            | 1.0            | False    |
+| Alejandro_Toledo_0001.png            | 1.0            | 1.0            | False    |
+| Marco_Antonio_Barrera_0004.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0423.png               | 1.0            | 1.0            | False    |
+| Ricardo_Lagos_0011.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0139.png               | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0048.png   | 1.0            | 1.0            | False    |
+| Luiz_Inacio_Lula_da_Silva_0037.png   | 1.0            | 1.0            | False    |
+| Jennifer_Capriati_0030.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0082.png               | 1.0            | 1.0            | False    |
+| Andre_Agassi_0033.png                | 1.0            | 1.0            | False    |
+| Jean_Charest_0015.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0342.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0173.png                | 1.0            | 1.0            | False    |
+| Nestor_Kirchner_0012.png             | 1.0            | 1.0            | False    |
+| Saddam_Hussein_0016.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0221.png               | 1.0            | 1.0            | False    |
+| James_Blake_0003.png                 | 1.0            | 1.0            | False    |
+| Jennifer_Aniston_0002.png            | 0.846          | 0.846          | False    |
+| Kalpana_Chawla_0002.png              | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0014.png                 | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0038.png     | 1.0            | 1.0            | False    |
+| Jackie_Chan_0005.png                 | 1.0            | 1.0            | False    |
+| Taha_Yassin_Ramadan_0010.png         | 1.0            | 1.0            | False    |
+| Hu_Jintao_0005.png                   | 1.0            | 1.0            | False    |
+| Debbie_Reynolds_0001.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0387.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0039.png               | 1.0            | 1.0            | False    |
+| Saddam_Hussein_0005.png              | 1.0            | 1.0            | False    |
+| Venus_Williams_0006.png              | 1.0            | 1.0            | False    |
+| George_W_Bush_0016.png               | 1.0            | 1.0            | False    |
+| Liza_Minnelli_0006.png               | 1.0            | 1.0            | False    |
+| Megawati_Sukarnoputri_0020.png       | 1.0            | 1.0            | False    |
+| George_W_Bush_0147.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0033.png                | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0011.png           | 1.0            | 1.0            | False    |
+| Amelia_Vega_0007.png                 | 1.0            | 1.0            | False    |
+| George_W_Bush_0377.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0328.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0270.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0096.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0495.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0298.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0338.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0168.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0411.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0407.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0087.png                | 1.0            | 1.0            | False    |
+| George_Robertson_0014.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0085.png               | 1.0            | 1.0            | False    |
+| Junichiro_Koizumi_0026.png           | 1.0            | 1.0            | False    |
+| George_W_Bush_0497.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0458.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0312.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0201.png                | 1.0            | 1.0            | False    |
+| Bob_Graham_0001.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0475.png               | 1.0            | 1.0            | False    |
+| Mike_Krzyzewski_0005.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0403.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0123.png               | 1.0            | 1.0            | False    |
+| Yashwant_Sinha_0001.png              | 1.0            | 1.0            | False    |
+| Carrie-Anne_Moss_0005.png            | 1.0            | 1.0            | False    |
+| George_W_Bush_0209.png               | 1.0            | 1.0            | False    |
+| John_Allen_Muhammad_0005.png         | 1.0            | 1.0            | False    |
+| Richard_Armitage_0005.png            | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0017.png           | 1.0            | 1.0            | False    |
+| Nicanor_Duarte_Frutos_0001.png       | 1.0            | 1.0            | False    |
+| John_Ashcroft_0013.png               | 1.0            | 1.0            | False    |
+| Arnold_Schwarzenegger_0022.png       | 1.0            | 1.0            | False    |
+| Colin_Powell_0016.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0486.png               | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0016.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0026.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0484.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0498.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0528.png               | 1.0            | 1.0            | False    |
+| Gloria_Macapagal_Arroyo_0034.png     | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0094.png           | 1.0            | 1.0            | False    |
+| Oxana_Fedorova_0003.png              | 1.0            | 1.0            | False    |
+| John_Ashcroft_0046.png               | 1.0            | 1.0            | False    |
+| Tony_Blair_0124.png                  | 1.0            | 1.0            | False    |
+| George_W_Bush_0382.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0156.png                | 1.0            | 1.0            | False    |
+| Tony_Blair_0005.png                  | 1.0            | 1.0            | False    |
+| Jean_Chretien_0035.png               | 1.0            | 1.0            | False    |
+| Mahathir_Mohamad_0006.png            | 0.258          | 0.258          | False    |
+| Megawati_Sukarnoputri_0027.png       | 1.0            | 1.0            | False    |
+| Atal_Bihari_Vajpayee_0024.png        | 1.0            | 1.0            | False    |
+| Jose_Maria_Aznar_0001.png            | 1.0            | 1.0            | False    |
+| Vicente_Fox_0010.png                 | 1.0            | 1.0            | False    |
+| Joe_Nichols_0002.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0191.png                | 1.0            | 1.0            | False    |
+| George_W_Bush_0344.png               | 1.0            | 1.0            | False    |
+| Colin_Powell_0202.png                | 1.0            | 1.0            | False    |
+| Silvio_Berlusconi_0012.png           | 1.0            | 1.0            | False    |
+| Roh_Moo-hyun_0010.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0103.png             | 1.0            | 1.0            | False    |
+| Kim_Dae-jung_0004.png                | 0.194          | 0.194          | False    |
+| Hugo_Chavez_0019.png                 | 1.0            | 1.0            | False    |
+| Colin_Powell_0219.png                | 1.0            | 1.0            | False    |
+| Vladimir_Putin_0012.png              | 0.333          | 0.333          | False    |
+| Gerhard_Schroeder_0009.png           | 1.0            | 1.0            | False    |
+| Hugo_Chavez_0010.png                 | 1.0            | 1.0            | False    |
+| Jean_Chretien_0026.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0080.png               | 1.0            | 1.0            | False    |
+| Gerhard_Schroeder_0030.png           | 1.0            | 1.0            | False    |
+| Colin_Powell_0179.png                | 1.0            | 1.0            | False    |
+| Donald_Rumsfeld_0094.png             | 1.0            | 1.0            | False    |
+| George_W_Bush_0119.png               | 1.0            | 1.0            | False    |
+| Ariel_Sharon_0045.png                | 1.0            | 1.0            | False    |
+| Charles_Taylor_0004.png              | 1.0            | 1.0            | False    |
+| John_Ashcroft_0049.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0340.png               | 1.0            | 1.0            | False    |
+| Tom_Ridge_0019.png                   | 1.0            | 1.0            | False    |
+| George_W_Bush_0500.png               | 1.0            | 1.0            | False    |
+| George_W_Bush_0133.png               | 1.0            | 1.0            | False    |
+| Yoriko_Kawaguchi_0011.png            | 1.0            | 1.0            | False    |
+| Andre_Agassi_0016.png                | 1.0            | 1.0            | False    |
+| John_Ashcroft_0045.png               | 1.0            | 1.0            | False    |
++--------------------------------------+----------------+----------------+----------+
++--------------------------+---------------------------+
+| Comparison Results       | Value                     |
++--------------------------+---------------------------+
+| Total faces:             | 6715                      |
+| Lost:                    | 123                       |
+| Found:                   | 126                       |
+| Lost/found score:        | -0.01                     |
+| Disguised:               | 289                       |
+| Exposed:                 | 293                       |
+| Disguised/exposed score: | -0.00                     |
+| Improved:                | 4/1358 (0.00294550810015) |
+| Improved score:          | 1.463                     |
+| Overall score:           | -0.20                     |
++--------------------------+---------------------------+

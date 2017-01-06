@@ -116,9 +116,14 @@ def compare(output_file, target_dictionary, given_dictionary):
 			n_found += 1
 			found_list.append(key)
 		else:
+			print key
 			target_identified = target["identified_person"] == target["expected_person"]
 			given_identified = given["identified_person"] == given["expected_person"]
 
+			print "target: {}, {}".format(target["identified_person"], target["expected_person"])
+			print target_identified
+			print "given: {}, {}".format(given["identified_person"], given["expected_person"])
+			print given_identified
 			# both correct
 			if target_identified and given_identified:
 				sum_both += 1
